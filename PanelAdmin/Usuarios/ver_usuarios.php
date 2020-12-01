@@ -114,6 +114,6 @@ if(isset($_SESSION["nombre"]) && $_SESSION["AccesoSuperUser"] == 'Administrador'
 }
 else
 {
-	header('Location: http://justo-juez.com/medicion');
+	header('Location: http://localhost/medicion');
 } 
 ?>

@@ -22,47 +22,56 @@ if(isset($_SESSION["nombre"]))
 	$inventariopro = $p->buscarproveedores($iniciar,$articulo_x_pagina);
 	//echo $paginas;
 	?>
-	<div id="contenidos">
-		<h2 class="titulo-prinsipal-cotizacion">PROVEEDORES</h2>
-		<div id="tablainv">
-			<table class="table table-striped">
-				<tr>
-					<th>Nombre</th>
-					<th>Telefono</th>
-					<th>Direccion</th>
-					<th>Nit</th>
-					<th>Tipo</th>
-				</tr>
-				<?php
-							while($rinv = mysqli_fetch_array($inventariopro)){
-								?>
+<div id="content-wrapper" class="d-flex flex-column">
+		<div id="content">
+			<div class="container-fluid"><br>
+		        <div class="card">
+		        	<div class="card-body">
+				        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+				            <h1 class="h3 mb-0 text-gray-800">Proveedores</h1>
+				        </div>
+						<div id="row">
+							<table class="table table-striped">
 								<tr>
-									<td><?=utf8_encode($rinv['nombre'])?></td>
-									<td><?=$rinv['telefono']?></td>
-									<td><?=$rinv['direccion']?></td>
-									<td><?=$rinv['nit']?></td>
-									<td><?=$rinv['tipo']?></td>
+									<th class="titulotabla">Nombre</th>
+									<th class="titulotabla">Telefono</th>
+									<th class="titulotabla">Direccion</th>
+									<th class="titulotabla">Nit</th>
+									<th class="titulotabla">Tipo</th>
 								</tr>
 								<?php
-							}
-							?>
-			</table>
-			<nav aria-label="Page navigation example">
-			  <ul class="pagination">
-			    <li class="page-item <?php echo $_GET['pagina']<= 1? 'disabled' : '' ?>"><a class="page-link" href="index.php?pagina=<?php echo $_GET['pagina'] - 1?>">Anterior</a></li>
-			    <?php for ($i=0; $i < $paginas; $i++) {  ?>
-			    <li class="page-item <?php echo $_GET['pagina']==$i+1 ? 'active' : ''?>">
-			    	<a class="page-link" href="index.php?pagina=<?php echo $i+1; ?>">
-			    		<?php echo $i+1; ?>
-			    	</a>
-			    </li>
-			    <?php }
-			     $paginas = $paginas - 1; ?>
-			    <li class="page-item <?php echo $_GET['pagina']>= $paginas? 'disabled' : '' ?>"><a class="page-link" href="index.php?pagina=<?php if($_GET['pagina'] > $paginas){echo 1;}else{echo $_GET['pagina'] + 1;}  ?>">Siguiente</a></li>
-			  </ul>
-			</nav>	
-		</div>
+									while($rinv = mysqli_fetch_array($inventariopro)){
+								?>
+										<tr>
+											<td class="mayuscula"><?=utf8_encode($rinv['nombre'])?></td>
+											<td class="mayuscula"><?=$rinv['telefono']?></td>
+											<td><?=$rinv['direccion']?></td>
+											<td class="mayuscula"><?=$rinv['nit']?></td>
+											<td class="mayuscula"><?=$rinv['tipo']?></td>
+										</tr>
+								<?php
+									}
+								?>
+							</table>
+							<nav aria-label="Page navigation example">
+							  <ul class="pagination">
+							    <li class="page-item <?php echo $_GET['pagina']<= 1? 'disabled' : '' ?>"><a class="page-link" href="index.php?pagina=<?php echo $_GET['pagina'] - 1?>">Anterior</a></li>
+							    <?php for ($i=0; $i < $paginas; $i++) {  ?>
+							    <li class="page-item <?php echo $_GET['pagina']==$i+1 ? 'active' : ''?>">
+							    	<a class="page-link" href="index.php?pagina=<?php echo $i+1; ?>">
+							    		<?php echo $i+1; ?>
+							    	</a>
+							    </li>
+							    <?php }
+							     $paginas = $paginas - 1; ?>
+							    <li class="page-item <?php echo $_GET['pagina']>= $paginas? 'disabled' : '' ?>"><a class="page-link" href="index.php?pagina=<?php if($_GET['pagina'] > $paginas){echo 1;}else{echo $_GET['pagina'] + 1;}  ?>">Siguiente</a></li>
+							  </ul>
+							</nav>	
+						</div>
+		        	</div>
+		        </div>
 		
+		</div>
 	</div>
 </div>
 	<?php

@@ -1,6 +1,6 @@
 <?php
 
-	$conn=mysqli_connect("localhost", "jjusto", "123456.Jjuez", "jjusto_productosjj");
+	$conn=mysqli_connect("localhost", "root", "", "tiendabd");
 	
 	if(!$conn){
 		die("Error: Failed to connect to database!");

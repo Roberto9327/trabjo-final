@@ -52,88 +52,92 @@ if(isset($_SESSION["idproforma"]))
 <div id="content-wrapper" class="d-flex flex-column">
 	<div id="content">
 		<div class="container-fluid"><br>
+			<div class="card">
+		        	<div class="card-body">
 			<?php
 			 include "botones.php";
 			?>
 			
 		<!--////////////////////////////////////////////////////////////////////////////////////////////-->
-		<div class="carrito">
-			<div class="proformadetalle">
-				<h1><img src="../img/libreta.png" width="30px"> 
-					<?php echo $nombreproforma;?>
-				</h1>
-				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
- 				 Datos del cliente
-				</button>
-				<!--<button  id="datosclientebtn" class="btn btn-success" name="datos_cliente"><img src="../img/libreta.png" width="30px"> Datos del cliente</button>-->
-				<h2>Nombre: <?=$nombredelcliente?></h2>
-				<h2>Telefono: <?=$telefonodelcliente?></h2>
-				<table class="table table-striped">
-					<tr>
-						<th>Ancho</th>
-						<th>Alto</th>
-						<th>Nombre del producto</th>
-						<th>Cantidad</th>
-						<th>Precio por unidad</th>
-						<th>Precio Total</th>
-						<th>Action</th>
-					</tr>
-					<?php
-			// $cats = $mysqli->query("SELECT * FROM trabajos ORDER BY detalle ASC");
-					$monto_total = 0;
-					$cadena = "";
-					while($rcom = mysqli_fetch_array($carrit)){
-						$monto_total = $monto_total + $rcom['preciot'];
-						$cadena .=$rcom['ancho']."-".$rcom['alto']."-".$rcom['detalle']."-".$rcom['cantidad']."-".$rcom['preciou']."-".$rcom['preciot']."/";
-						?>
-						<tr>
-							<td><?=$rcom['ancho']?></td>
-							<td><?=$rcom['alto']?></td>
-							<td><?=$rcom['detalle']?></td>
-							<td><?=$rcom['cantidad']?></td>
-							<td><?=$rcom['preciou']?>  <?=$divisa?></td>
-							<td><?=$rcom['preciot']?>  <?=$divisa?></td>
-							<td><a href='eliminar_producto.php?id=<?=$rcom['id']?>'><img src="../img/borrar.png" width="20px" title="Eliminar producto del carrito"> </a></td>
-						</tr>
+					<div class="carrito">
+						<div class="proformadetalle">
+							<h1><img src="../img/libreta.png" width="30px"> 
+								<?php echo $nombreproforma;?>
+							</h1>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+			 				 Datos del cliente
+							</button>
+							<!--<button  id="datosclientebtn" class="btn btn-success" name="datos_cliente"><img src="../img/libreta.png" width="30px"> Datos del cliente</button>-->
+							<h2>Nombre: <?=$nombredelcliente?></h2>
+							<h2>Telefono: <?=$telefonodelcliente?></h2>
+							<table class="table table-striped">
+								<tr>
+									<th>Ancho</th>
+									<th>Alto</th>
+									<th>Nombre del producto</th>
+									<th>Cantidad</th>
+									<th>Precio por unidad</th>
+									<th>Precio Total</th>
+									<th>Action</th>
+								</tr>
+								<?php
+						// $cats = $mysqli->query("SELECT * FROM trabajos ORDER BY detalle ASC");
+								$monto_total = 0;
+								$cadena = "";
+								while($rcom = mysqli_fetch_array($carrit)){
+									$monto_total = $monto_total + $rcom['preciot'];
+									$cadena .=$rcom['ancho']."-".$rcom['alto']."-".$rcom['detalle']."-".$rcom['cantidad']."-".$rcom['preciou']."-".$rcom['preciot']."/";
+									?>
+									<tr>
+										<td><?=$rcom['ancho']?></td>
+										<td><?=$rcom['alto']?></td>
+										<td><?=$rcom['detalle']?></td>
+										<td><?=$rcom['cantidad']?></td>
+										<td><?=$rcom['preciou']?>  <?=$divisa?></td>
+										<td><?=$rcom['preciot']?>  <?=$divisa?></td>
+										<td><a href='eliminar_producto.php?id=<?=$rcom['id']?>'><img src="../img/borrar.png" width="20px" title="Eliminar producto del carrito"> </a></td>
+									</tr>
+									<?php
+								}
+								$cadena .= "monto total ".$monto_total;
+								?>
+							</table>
+							<h2>Monto Total: <b class="text-green"><?=$monto_total?> <?=$divisa?></b></h2>
+							<a target="_blank" href="generar_pdf.php" class=" btn btn-success">Generar pdf</a>
+							<a  href="finproforma.php" class=" btn btn-success">Finalizar proforma</a>
+						</div>
+
 						<?php
-					}
-					$cadena .= "monto total ".$monto_total;
-					?>
-				</table>
-				<h2>Monto Total: <b class="text-green"><?=$monto_total?> <?=$divisa?></b></h2>
-				<a target="_blank" href="generar_pdf.php" class=" btn btn-success">Generar pdf</a>
-				<a  href="finproforma.php" class=" btn btn-success">Finalizar proforma</a>
+							//Agregamos la libreria para genera códigos QR
+							require "phpqrcode/qrlib.php";
+							//Conesta variable quiero sacar la fecha y adjuntarsela al interior de la carpeta temp para que me cree carpetas con la hora y fecha de cada codigo qr   
+							$hoy = getdate();
+							//Declaramos una carpeta temporal para guardar la imagenes generadas
+							$dir = 'temp/'.$nombreproforma.'/';
+
+							//Si no existe la carpeta la creamos
+							if (!file_exists($dir))
+								mkdir($dir);
+
+							//Declaramos la ruta y nombre del archivo a generar
+							$filename = $dir.$nombreproforma.'.png';
+
+				    		//Parametros de Condiguración
+
+							$tamaño = 10; //Tamaño de Pixel
+							$level = 'H'; //Precisión Baja
+							$framSize = 3; //Tamaño en blanco
+							$contenido = $nombredelcliente."/".$telefonodelcliente."/".$cadena; //Texto
+
+				  			 //Enviamos los parametros a la Función para generar código QR 
+							QRcode::png($contenido, $filename, $level, $tamaño, $framSize); 
+
+				   			//Mostramos la imagen generada
+							echo '<img class="qrimg" src="'.$dir.basename($filename).'" width="150px"/><hr/>'; 
+						?>
+						</div>
+				</div>
 			</div>
-
-			<?php
-				//Agregamos la libreria para genera códigos QR
-				require "phpqrcode/qrlib.php";
-				//Conesta variable quiero sacar la fecha y adjuntarsela al interior de la carpeta temp para que me cree carpetas con la hora y fecha de cada codigo qr   
-				$hoy = getdate();
-				//Declaramos una carpeta temporal para guardar la imagenes generadas
-				$dir = 'temp/'.$nombreproforma.'/';
-
-				//Si no existe la carpeta la creamos
-				if (!file_exists($dir))
-					mkdir($dir);
-
-				//Declaramos la ruta y nombre del archivo a generar
-				$filename = $dir.$nombreproforma.'.png';
-
-	    		//Parametros de Condiguración
-
-				$tamaño = 10; //Tamaño de Pixel
-				$level = 'H'; //Precisión Baja
-				$framSize = 3; //Tamaño en blanco
-				$contenido = $nombredelcliente."/".$telefonodelcliente."/".$cadena; //Texto
-
-	  			 //Enviamos los parametros a la Función para generar código QR 
-				QRcode::png($contenido, $filename, $level, $tamaño, $framSize); 
-
-	   			//Mostramos la imagen generada
-				echo '<img class="qrimg" src="'.$dir.basename($filename).'" width="150px"/><hr/>'; 
-			?>
-		</div>
 		</div>
 	</div>
 </div>

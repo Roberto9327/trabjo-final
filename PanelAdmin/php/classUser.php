@@ -9,15 +9,7 @@ class user
   private $tipo;
   private $estado;
   private $conexion;
-  public function __construct()
-  {
-// $db = new mysqli('localhost', 'jjusto', '123456.Jjuez', 'jjusto_productosjj');
-$host_mysql = "localhost";
-$user_mysql = "jjusto";
-$pass_mysql = "123456.Jjuez";
-$db_mysql = "jjusto_productosjj";
-$mysqli = mysqli_connect($host_mysql,$user_mysql,$pass_mysql,$db_mysql);
-  }
+  
   public function getId()
   {
   return $this->id;
@@ -152,9 +144,9 @@ $mysqli = mysqli_connect($host_mysql,$user_mysql,$pass_mysql,$db_mysql);
  }
  function connect(){
   $host_mysql = "localhost";
-$user_mysql = "jjusto";
-$pass_mysql = "123456.Jjuez";
-$db_mysql = "jjusto_productosjj";
+$user_mysql = "root";
+$pass_mysql = "";
+$db_mysql = "tiendabd";
 
 
   $mysqli = mysqli_connect($host_mysql,$user_mysql,$pass_mysql,$db_mysql);

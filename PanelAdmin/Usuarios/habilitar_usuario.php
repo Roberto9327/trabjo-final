@@ -10,10 +10,10 @@ $p = new user();
 $idProducto = $_GET['id'];
 $estado = 1;
 $verificar = $p->habilitarUsuario($estado,$idProducto);
-header('Location: http://justo-juez.com/medicion/PanelAdmin/Usuarios/ver_usuarios.php?pagina=1');
+header('Location: http://localhost/medicion/PanelAdmin/Usuarios/ver_usuarios.php?pagina=1');
 }
 else
 {
-	header('Location: http://justo-juez.com/medicion');
+	header('Location: http://localhost/medicion');
 } 
 ?>

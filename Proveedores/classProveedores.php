@@ -107,9 +107,9 @@ public function buscarproveedores($iniciar,$articulo_x_pagina)
   }
    function connect(){
       $host_mysql = "localhost";
-      $user_mysql = "jjusto";
-      $pass_mysql = "123456.Jjuez";
-      $db_mysql = "jjusto_productosjj";
+      $user_mysql = "root";
+      $pass_mysql = "";
+      $db_mysql = "tiendabd";
 
       $mysqli = mysqli_connect($host_mysql,$user_mysql,$pass_mysql,$db_mysql);
 

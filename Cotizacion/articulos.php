@@ -52,35 +52,39 @@ if(isset($_SESSION["idproforma"]))
 <div id="content-wrapper" class="d-flex flex-column">
 			<div id="content">
 			  <div class="container-fluid"><br>
+			  	<div class="card">
+		        	<div class="card-body">
 			<?php
 			 include "botones.php";
 			?>
-				<!--////////////////////////////////////////////////////////////////////////////////////////////-->
-				<div class="articulos">
-					<h2 class="titulo-prinsipal-cotizacion">ACCESORIOS</h2>
-					<form id="artf" name="artf">
-						<div class="formu estilo">
-							<select id="articulosel" name="art" class="form-control">
-								<option>Seleccione un articulo</option>
-								<?php
-								while($racc = mysqli_fetch_array($accesorio)){
-									?>
-									<option value="<?=$racc['id']?>"><?=utf8_decode ($racc['nombre'])?></option>
+					<!--////////////////////////////////////////////////////////////////////////////////////////////-->
+						<div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        	<h1 class="h3 mb-0 text-gray-800">Accesorios</h1>
+                    	</div>
+						<form id="artf" name="artf">
+							<div class="formu estilo">
+								<select id="articulosel" name="art" class="form-control">
+									<option>Seleccione un articulo</option>
 									<?php
-								}
-								?>
-							</select>
-							<div class="form-group">
-								<input type="number"  id="cantpro" class="form-control" name="cantpro" title="Introdusca la cantidad"  placeholder="Cantidad" required />
+									while($racc = mysqli_fetch_array($accesorio)){
+										?>
+										<option value="<?=$racc['id']?>"><?=utf8_decode ($racc['nombre'])?></option>
+										<?php
+									}
+									?>
+								</select>
+								<div class="form-group">
+									<input type="number"  id="cantpro" class="form-control" name="cantpro" title="Introdusca la cantidad"  placeholder="Cantidad" required />
+								</div>
 							</div>
-						</div>
-						
-						<div class="btnproforma">
-							<input type="button" value="Agregar al carrito" id="articulobtncat" class="btn btn-success" name="Agregarart">
-						</div>
-					</form>
+							
+							<div class="btnproforma">
+								<input type="button" value="Agregar al carrito" id="articulobtncat" class="btn btn-success" name="Agregarart">
+							</div>
+						</form>
+					<!--////////////////////////////////////////////////////////////////////////////////////////////-->
 				</div>
-				<!--////////////////////////////////////////////////////////////////////////////////////////////-->
+			</div>
 		</div>
 	</div>
 </div>

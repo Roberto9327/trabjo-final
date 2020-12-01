@@ -60,6 +60,6 @@ $p = new user();
 }
 else
 {
-	header('Location: http://justo-juez.com/medicion');
+	header('Location: http://localhost/medicion');
 } 
 ?>
