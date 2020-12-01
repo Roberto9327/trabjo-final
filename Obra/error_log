@@ -1,0 +1,320 @@
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 18:32:43 UTC] PHP Notice:  Undefined variable: idProforma in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 66
+[09-May-2020 18:32:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php:66) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[09-May-2020 18:39:49 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/detalle_proforma.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/detalle_proforma.php on line 25
+[09-May-2020 18:50:00 UTC] PHP Notice:  Undefined variable: cadena in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/detalle_proforma.php on line 68
+[09-May-2020 18:53:57 UTC] PHP Parse error:  syntax error, unexpected '&' in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/detalle_proforma.php on line 62
+[01-Jul-2020 15:30:02 UTC] PHP Warning:  include(cabeceraProforma.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 37
+[01-Jul-2020 15:30:02 UTC] PHP Warning:  include(): Failed opening 'cabeceraProforma.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 37
+[01-Jul-2020 15:31:44 UTC] PHP Warning:  include(cabeceraProforma.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 37
+[01-Jul-2020 15:31:44 UTC] PHP Warning:  include(): Failed opening 'cabeceraProforma.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 37
+[01-Jul-2020 15:31:46 UTC] PHP Warning:  include(cabeceraProforma.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 37
+[01-Jul-2020 15:31:46 UTC] PHP Warning:  include(): Failed opening 'cabeceraProforma.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 37
+[01-Jul-2020 15:32:56 UTC] PHP Warning:  include(cabeceraProforma.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 37
+[01-Jul-2020 15:32:56 UTC] PHP Warning:  include(): Failed opening 'cabeceraProforma.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 37
+[01-Jul-2020 15:59:38 UTC] PHP Parse error:  syntax error, unexpected '$paginas' (T_VARIABLE) in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 20
+[01-Jul-2020 16:08:46 UTC] PHP Warning:  include(../php/classProforma.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/Obra/categoriaobra.php on line 4
+[01-Jul-2020 16:08:46 UTC] PHP Warning:  include(): Failed opening '../php/classProforma.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/Obra/categoriaobra.php on line 4
+[01-Jul-2020 16:08:46 UTC] PHP Fatal error:  Uncaught Error: Class 'proforma' not found in /home/jjusto/public_html/medicion/Obra/categoriaobra.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/categoriaobra.php on line 5
+[01-Jul-2020 16:33:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::buscarObra() in /home/jjusto/public_html/medicion/Obra/detalle_obra.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 14
+[01-Jul-2020 16:34:54 UTC] PHP Notice:  Undefined variable: idProforma in /home/jjusto/public_html/medicion/Obra/classobra.php on line 75
+[01-Jul-2020 16:34:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 15
+[01-Jul-2020 16:34:54 UTC] PHP Notice:  Undefined variable: idProforma in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 29
+[01-Jul-2020 16:34:54 UTC] PHP Warning:  include(cabeceraProforma.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:34:54 UTC] PHP Warning:  include(): Failed opening 'cabeceraProforma.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:34:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 57
+[01-Jul-2020 16:35:31 UTC] PHP Notice:  Undefined variable: idProforma in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 29
+[01-Jul-2020 16:35:31 UTC] PHP Warning:  include(cabeceraProforma.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:35:31 UTC] PHP Warning:  include(): Failed opening 'cabeceraProforma.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:35:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 57
+[01-Jul-2020 16:43:41 UTC] PHP Notice:  Undefined variable: idProforma in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 29
+[01-Jul-2020 16:43:41 UTC] PHP Warning:  include(cabeceraProforma.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:43:41 UTC] PHP Warning:  include(): Failed opening 'cabeceraProforma.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:43:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 57
+[01-Jul-2020 16:43:41 UTC] PHP Notice:  Undefined variable: idProforma in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 29
+[01-Jul-2020 16:43:41 UTC] PHP Warning:  include(cabeceraProforma.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:43:41 UTC] PHP Warning:  include(): Failed opening 'cabeceraProforma.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:43:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 57
+[01-Jul-2020 16:43:44 UTC] PHP Notice:  Undefined variable: idProforma in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 29
+[01-Jul-2020 16:43:44 UTC] PHP Warning:  include(cabeceraProforma.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:43:44 UTC] PHP Warning:  include(): Failed opening 'cabeceraProforma.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:43:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 57
+[01-Jul-2020 16:43:50 UTC] PHP Notice:  Undefined variable: idProforma in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 29
+[01-Jul-2020 16:43:50 UTC] PHP Warning:  include(cabeceraProforma.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:43:50 UTC] PHP Warning:  include(): Failed opening 'cabeceraProforma.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:43:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 57
+[01-Jul-2020 16:44:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::contenidoobra() in /home/jjusto/public_html/medicion/Obra/detalle_obra.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 29
+[01-Jul-2020 16:50:53 UTC] PHP Notice:  Undefined variable: ididObra in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 29
+[01-Jul-2020 16:50:53 UTC] PHP Warning:  include(cabeceraProforma.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:50:53 UTC] PHP Warning:  include(): Failed opening 'cabeceraProforma.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 30
+[01-Jul-2020 16:50:53 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 55
+[01-Jul-2020 16:51:32 UTC] PHP Notice:  Undefined variable: ididObra in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 29
+[01-Jul-2020 16:51:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/Obra/detalle_obra.php:29) in /home/jjusto/public_html/medicion/Obra/cabeceraobra.php on line 4
+[01-Jul-2020 16:51:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 55
+[01-Jul-2020 20:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:18:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:18:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:18:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:19:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:20:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:22:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:22:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:26:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:27:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:29:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:34:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 27
+[01-Jul-2020 20:36:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 26
+[01-Jul-2020 20:38:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertarnuevocliente() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_cl_ob.php on line 21
+[02-Jul-2020 20:10:11 UTC] PHP Notice:  Undefined variable: idobra in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 33
+[02-Jul-2020 20:10:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/Obra/detalle_obra.php:33) in /home/jjusto/public_html/medicion/Obra/cabeceraobra.php on line 4
+[02-Jul-2020 20:10:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 121
+[02-Jul-2020 20:11:42 UTC] PHP Notice:  Undefined variable: idobra in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 33
+[02-Jul-2020 20:11:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/Obra/detalle_obra.php:33) in /home/jjusto/public_html/medicion/Obra/cabeceraobra.php on line 4
+[02-Jul-2020 20:11:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 121
+[02-Jul-2020 16:21:54 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertardatosdepago() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_pago.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_pago.php on line 53
+[02-Jul-2020 16:22:08 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method obra::insertardatosdepago() in /home/jjusto/public_html/medicion/Obra/ingresar_datos_pago.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/ingresar_datos_pago.php on line 53
+[02-Jul-2020 20:29:41 UTC] PHP Notice:  Undefined variable: diferencia in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 151
+[02-Jul-2020 20:32:09 UTC] PHP Notice:  Undefined variable: diferencia in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 150
+[02-Jul-2020 20:32:17 UTC] PHP Notice:  Undefined variable: diferencia in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 150
+[04-Jul-2020 15:10:50 UTC] PHP Notice:  Undefined variable: tipo in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 38
+[04-Jul-2020 15:10:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 38
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:13:26 UTC] PHP Notice:  Undefined variable: rcpro in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 42
+[04-Jul-2020 15:14:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 39
+[04-Jul-2020 15:14:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 39
+[04-Jul-2020 15:15:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 39
+[04-Jul-2020 15:15:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/nueva_obra.php on line 39
+[04-Jul-2020 15:24:45 UTC] PHP Notice:  Undefined index: costo in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 70
+[04-Jul-2020 15:24:45 UTC] PHP Notice:  Undefined index: costo in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 70
+[04-Jul-2020 15:24:45 UTC] PHP Notice:  Undefined index: costo in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 70
+[04-Jul-2020 15:27:33 UTC] PHP Notice:  Undefined index: costo in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 70
+[04-Jul-2020 15:27:33 UTC] PHP Notice:  Undefined index: costo in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 70
+[04-Jul-2020 15:27:33 UTC] PHP Notice:  Undefined index: costo in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 70
+[04-Jul-2020 15:27:33 UTC] PHP Notice:  Undefined index: costo in /home/jjusto/public_html/medicion/Obra/ver_obra.php on line 70
+[04-Jul-2020 16:37:03 UTC] PHP Notice:  Undefined variable: carrit in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 148
+[04-Jul-2020 16:37:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 148
+[04-Jul-2020 16:37:03 UTC] PHP Notice:  Undefined variable: costoobra in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 184
+[04-Jul-2020 16:37:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 148
+[04-Jul-2020 16:37:42 UTC] PHP Notice:  Undefined variable: costoobra in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 184
+[04-Jul-2020 16:39:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 148
+[04-Jul-2020 16:39:22 UTC] PHP Notice:  Undefined variable: 0 in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 184
+[04-Jul-2020 16:39:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 148
+[04-Jul-2020 19:51:01 UTC] PHP Notice:  Undefined variable: saldo in /home/jjusto/public_html/medicion/Obra/detalle_obra.php on line 237
+[06-Jul-2020 16:04:44 UTC] PHP Notice:  Undefined index: nombreproforma in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 16
+[06-Jul-2020 16:04:44 UTC] PHP Notice:  Undefined index: pronombredelcliente in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 82
+[06-Jul-2020 16:04:44 UTC] PHP Notice:  Undefined index: protelefonodelcliente in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 83
+[06-Jul-2020 16:04:44 UTC] PHP Notice:  Undefined index: idproforma in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 84
+[06-Jul-2020 16:04:44 UTC] PHP Fatal error:  Uncaught Error: Class 'proforma' not found in /home/jjusto/public_html/medicion/Obra/generar_pdf.php:85
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 85
+[06-Jul-2020 16:05:48 UTC] PHP Notice:  Undefined variable: nombre in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 97
+[06-Jul-2020 16:05:48 UTC] PHP Notice:  Undefined variable: nombreC in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 102
+[06-Jul-2020 16:05:48 UTC] PHP Notice:  Undefined variable: telefonoC in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 107
+[06-Jul-2020 16:05:48 UTC] PHP Notice:  Undefined variable: nit in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 111
+[06-Jul-2020 16:05:48 UTC] PHP Notice:  Undefined variable: carrit in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 118
+[06-Jul-2020 16:05:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/jjusto/public_html/medicion/Obra/generar_pdf.php:118
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 118
+[06-Jul-2020 16:05:51 UTC] PHP Notice:  Undefined variable: nombre in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 97
+[06-Jul-2020 16:05:51 UTC] PHP Notice:  Undefined variable: nombreC in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 102
+[06-Jul-2020 16:05:51 UTC] PHP Notice:  Undefined variable: telefonoC in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 107
+[06-Jul-2020 16:05:51 UTC] PHP Notice:  Undefined variable: nit in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 111
+[06-Jul-2020 16:05:51 UTC] PHP Notice:  Undefined variable: carrit in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 118
+[06-Jul-2020 16:05:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/jjusto/public_html/medicion/Obra/generar_pdf.php:118
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 118
+[06-Jul-2020 16:07:08 UTC] PHP Notice:  Undefined variable: carrit in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 118
+[06-Jul-2020 16:07:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/jjusto/public_html/medicion/Obra/generar_pdf.php:118
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 118
+[06-Jul-2020 16:09:04 UTC] PHP Notice:  Undefined index: Detalle in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 120
+[06-Jul-2020 16:09:04 UTC] PHP Notice:  Undefined index: Cantidad in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 121
+[06-Jul-2020 16:09:04 UTC] PHP Notice:  Undefined index: Precio in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 122
+[06-Jul-2020 16:09:04 UTC] PHP Notice:  Undefined variable: montototal in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 136
+[06-Jul-2020 16:09:04 UTC] PHP Notice:  Undefined variable: nombredeproforma in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 150
+[06-Jul-2020 16:09:04 UTC] PHP Notice:  Undefined variable: nombredeproforma in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 150
+[06-Jul-2020 16:09:04 UTC] PHP Warning:  fopen(temp//.png): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/fpdf.php on line 1256
+[06-Jul-2020 16:09:04 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: temp//.png in /home/jjusto/public_html/medicion/fpdf.php:271
+Stack trace:
+#0 /home/jjusto/public_html/medicion/fpdf.php(1258): FPDF->Error('Can't open imag...')
+#1 /home/jjusto/public_html/medicion/fpdf.php(885): FPDF->_parsepng('temp//.png')
+#2 /home/jjusto/public_html/medicion/Obra/generar_pdf.php(150): FPDF->Image('temp//.png', 10.00125, 149.00125, 20)
+#3 {main}
+  thrown in /home/jjusto/public_html/medicion/fpdf.php on line 271
+[06-Jul-2020 16:10:15 UTC] PHP Notice:  Undefined variable: montototal in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 136
+[06-Jul-2020 16:10:15 UTC] PHP Notice:  Undefined variable: nombredeproforma in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 150
+[06-Jul-2020 16:10:15 UTC] PHP Notice:  Undefined variable: nombredeproforma in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 150
+[06-Jul-2020 16:10:15 UTC] PHP Warning:  fopen(temp//.png): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/fpdf.php on line 1256
+[06-Jul-2020 16:10:15 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: temp//.png in /home/jjusto/public_html/medicion/fpdf.php:271
+Stack trace:
+#0 /home/jjusto/public_html/medicion/fpdf.php(1258): FPDF->Error('Can't open imag...')
+#1 /home/jjusto/public_html/medicion/fpdf.php(885): FPDF->_parsepng('temp//.png')
+#2 /home/jjusto/public_html/medicion/Obra/generar_pdf.php(150): FPDF->Image('temp//.png', 10.00125, 149.00125, 20)
+#3 {main}
+  thrown in /home/jjusto/public_html/medicion/fpdf.php on line 271
+[06-Jul-2020 16:11:10 UTC] PHP Notice:  Undefined variable: montototal in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 149
+[06-Jul-2020 16:11:10 UTC] PHP Notice:  Undefined variable: nombredeproforma in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 151
+[06-Jul-2020 16:11:10 UTC] PHP Notice:  Undefined variable: nombredeproforma in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 151
+[06-Jul-2020 16:11:10 UTC] PHP Warning:  fopen(temp//.png): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/fpdf.php on line 1256
+[06-Jul-2020 16:11:10 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: temp//.png in /home/jjusto/public_html/medicion/fpdf.php:271
+Stack trace:
+#0 /home/jjusto/public_html/medicion/fpdf.php(1258): FPDF->Error('Can't open imag...')
+#1 /home/jjusto/public_html/medicion/fpdf.php(885): FPDF->_parsepng('temp//.png')
+#2 /home/jjusto/public_html/medicion/Obra/generar_pdf.php(151): FPDF->Image('temp//.png', 10.00125, 149.00125, 20)
+#3 {main}
+  thrown in /home/jjusto/public_html/medicion/fpdf.php on line 271
+[06-Jul-2020 16:11:38 UTC] PHP Notice:  Undefined variable: montototal in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 149
+[06-Jul-2020 16:11:38 UTC] PHP Notice:  Undefined variable: nombredeproforma in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 151
+[06-Jul-2020 16:11:38 UTC] PHP Notice:  Undefined variable: nombredeproforma in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 151
+[06-Jul-2020 16:11:38 UTC] PHP Warning:  fopen(temp//.png): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/fpdf.php on line 1256
+[06-Jul-2020 16:11:38 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: temp//.png in /home/jjusto/public_html/medicion/fpdf.php:271
+Stack trace:
+#0 /home/jjusto/public_html/medicion/fpdf.php(1258): FPDF->Error('Can't open imag...')
+#1 /home/jjusto/public_html/medicion/fpdf.php(885): FPDF->_parsepng('temp//.png')
+#2 /home/jjusto/public_html/medicion/Obra/generar_pdf.php(151): FPDF->Image('temp//.png', 10.00125, 149.00125, 20)
+#3 {main}
+  thrown in /home/jjusto/public_html/medicion/fpdf.php on line 271
+[06-Jul-2020 16:18:41 UTC] PHP Notice:  Undefined variable: montototalproductos in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 128
+[06-Jul-2020 16:18:41 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/jjusto/public_html/medicion/Obra/generar_pdf.php:128) in /home/jjusto/public_html/medicion/fpdf.php:271
+Stack trace:
+#0 /home/jjusto/public_html/medicion/fpdf.php(1049): FPDF->Error('Some data has a...')
+#1 /home/jjusto/public_html/medicion/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/jjusto/public_html/medicion/Obra/generar_pdf.php(155): FPDF->Output()
+#3 {main}
+  thrown in /home/jjusto/public_html/medicion/fpdf.php on line 271
+[06-Jul-2020 16:29:41 UTC] PHP Notice:  Undefined index: precio in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 143
+[06-Jul-2020 16:29:41 UTC] PHP Notice:  Undefined index: cantidad in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 145
+[06-Jul-2020 16:29:41 UTC] PHP Notice:  Undefined index: precio in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 146
+[06-Jul-2020 16:29:41 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/jjusto/public_html/medicion/Obra/generar_pdf.php:143) in /home/jjusto/public_html/medicion/fpdf.php:271
+Stack trace:
+#0 /home/jjusto/public_html/medicion/fpdf.php(1049): FPDF->Error('Some data has a...')
+#1 /home/jjusto/public_html/medicion/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/jjusto/public_html/medicion/Obra/generar_pdf.php(179): FPDF->Output()
+#3 {main}
+  thrown in /home/jjusto/public_html/medicion/fpdf.php on line 271
+[06-Jul-2020 16:48:38 UTC] PHP Notice:  Undefined variable: monto_total_proformae in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 208
+[06-Jul-2020 16:48:38 UTC] PHP Notice:  Undefined variable: monto_total_proforma in /home/jjusto/public_html/medicion/Obra/generar_pdf.php on line 208
+[06-Jul-2020 16:48:38 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/jjusto/public_html/medicion/Obra/generar_pdf.php:208) in /home/jjusto/public_html/medicion/fpdf.php:271
+Stack trace:
+#0 /home/jjusto/public_html/medicion/fpdf.php(1049): FPDF->Error('Some data has a...')
+#1 /home/jjusto/public_html/medicion/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/jjusto/public_html/medicion/Obra/generar_pdf.php(214): FPDF->Output()
+#3 {main}
+  thrown in /home/jjusto/public_html/medicion/fpdf.php on line 271

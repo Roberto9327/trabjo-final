@@ -1,0 +1,682 @@
+[25-Mar-2020 16:10:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 6
+[25-Mar-2020 16:10:29 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 2
+[25-Mar-2020 16:10:33 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 2
+[25-Mar-2020 16:10:34 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 2
+[25-Mar-2020 19:55:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 2
+[25-Mar-2020 19:55:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php:81
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php(9): user->cantidadTotalUsuarios()
+#1 /home/jjusto/public_html/medicion/PanelAdmin/index.php(64): include('/home/jjusto/pu...')
+#2 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php on line 81
+[25-Mar-2020 19:55:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 2
+[25-Mar-2020 19:55:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php:81
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php(9): user->cantidadTotalUsuarios()
+#1 /home/jjusto/public_html/medicion/PanelAdmin/index.php(64): include('/home/jjusto/pu...')
+#2 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php on line 81
+[25-Mar-2020 19:55:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 2
+[25-Mar-2020 19:55:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php:81
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php(9): user->cantidadTotalUsuarios()
+#1 /home/jjusto/public_html/medicion/PanelAdmin/index.php(64): include('/home/jjusto/pu...')
+#2 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php on line 81
+[25-Mar-2020 19:56:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 2
+[25-Mar-2020 19:56:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php:81
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php(9): user->cantidadTotalUsuarios()
+#1 /home/jjusto/public_html/medicion/PanelAdmin/index.php(64): include('/home/jjusto/pu...')
+#2 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php on line 81
+[25-Mar-2020 20:01:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 2
+[25-Mar-2020 20:01:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php:81
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php(9): user->cantidadTotalUsuarios()
+#1 /home/jjusto/public_html/medicion/PanelAdmin/index.php(64): include('/home/jjusto/pu...')
+#2 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php on line 81
+[25-Mar-2020 20:01:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 2
+[25-Mar-2020 20:01:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php:81
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php(9): user->cantidadTotalUsuarios()
+#1 /home/jjusto/public_html/medicion/PanelAdmin/index.php(64): include('/home/jjusto/pu...')
+#2 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php on line 81
+[25-Mar-2020 20:01:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 2
+[25-Mar-2020 20:01:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php:81
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php(9): user->cantidadTotalUsuarios()
+#1 /home/jjusto/public_html/medicion/PanelAdmin/index.php(64): include('/home/jjusto/pu...')
+#2 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php on line 81
+[25-Mar-2020 20:01:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 2
+[25-Mar-2020 20:01:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php:81
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php(9): user->cantidadTotalUsuarios()
+#1 /home/jjusto/public_html/medicion/PanelAdmin/index.php(64): include('/home/jjusto/pu...')
+#2 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php on line 81
+[25-Mar-2020 20:02:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 2
+[25-Mar-2020 20:02:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php:81
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php(9): user->cantidadTotalUsuarios()
+#1 /home/jjusto/public_html/medicion/PanelAdmin/index.php(64): include('/home/jjusto/pu...')
+#2 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php on line 81
+[25-Mar-2020 20:02:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 2
+[25-Mar-2020 20:02:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php:81
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php(9): user->cantidadTotalUsuarios()
+#1 /home/jjusto/public_html/medicion/PanelAdmin/index.php(64): include('/home/jjusto/pu...')
+#2 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php on line 81
+[25-Mar-2020 20:02:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 2
+[25-Mar-2020 20:02:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php:81
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php(9): user->cantidadTotalUsuarios()
+#1 /home/jjusto/public_html/medicion/PanelAdmin/index.php(64): include('/home/jjusto/pu...')
+#2 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/php/classUser.php on line 81
+[25-Mar-2020 20:11:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 4
+[25-Mar-2020 20:11:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 5
+[25-Mar-2020 20:11:24 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[25-Mar-2020 20:11:24 UTC] PHP Warning:  require(../php/classUser.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:11:24 UTC] PHP Fatal error:  require(): Failed opening required '../php/classUser.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:12:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 4
+[25-Mar-2020 20:12:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:13) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 5
+[25-Mar-2020 20:12:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[25-Mar-2020 20:12:12 UTC] PHP Warning:  require(../php/classUser.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:12:12 UTC] PHP Fatal error:  require(): Failed opening required '../php/classUser.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:13:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 4
+[25-Mar-2020 20:13:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 5
+[25-Mar-2020 20:13:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[25-Mar-2020 20:13:28 UTC] PHP Warning:  require(../php/classUser.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:13:28 UTC] PHP Fatal error:  require(): Failed opening required '../php/classUser.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:13:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 4
+[25-Mar-2020 20:13:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 5
+[25-Mar-2020 20:13:30 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[25-Mar-2020 20:13:30 UTC] PHP Warning:  require(../php/classUser.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:13:30 UTC] PHP Fatal error:  require(): Failed opening required '../php/classUser.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:20:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 4
+[25-Mar-2020 20:20:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 5
+[25-Mar-2020 20:20:18 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[25-Mar-2020 20:20:18 UTC] PHP Warning:  require(../php/classUser.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:20:18 UTC] PHP Fatal error:  require(): Failed opening required '../php/classUser.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:21:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 4
+[25-Mar-2020 20:21:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 5
+[25-Mar-2020 20:21:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[25-Mar-2020 20:21:41 UTC] PHP Warning:  require(../php/classUser.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:21:41 UTC] PHP Fatal error:  require(): Failed opening required '../php/classUser.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:21:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 4
+[25-Mar-2020 20:21:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 5
+[25-Mar-2020 20:21:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[25-Mar-2020 20:21:56 UTC] PHP Warning:  require(../php/classUser.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:21:56 UTC] PHP Fatal error:  require(): Failed opening required '../php/classUser.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:21:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 4
+[25-Mar-2020 20:21:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 5
+[25-Mar-2020 20:21:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[25-Mar-2020 20:21:58 UTC] PHP Warning:  require(../php/classUser.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:21:58 UTC] PHP Fatal error:  require(): Failed opening required '../php/classUser.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 10
+[25-Mar-2020 20:22:55 UTC] PHP Warning:  require(../php/classUser.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 5
+[25-Mar-2020 20:22:55 UTC] PHP Fatal error:  require(): Failed opening required '../php/classUser.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 5
+[25-Mar-2020 20:41:19 UTC] PHP Notice:  Undefined variable: contar_inv in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 9
+[25-Mar-2020 20:41:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 11
+[25-Mar-2020 20:41:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 26
+[25-Mar-2020 20:41:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 41
+[25-Mar-2020 20:41:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 41
+[25-Mar-2020 20:41:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[25-Mar-2020 20:41:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[25-Mar-2020 20:41:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[25-Mar-2020 20:43:31 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[25-Mar-2020 20:43:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 27
+[25-Mar-2020 20:43:31 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 42
+[25-Mar-2020 20:43:31 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 42
+[25-Mar-2020 20:43:31 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 44
+[25-Mar-2020 20:43:31 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 44
+[25-Mar-2020 20:43:31 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 44
+[25-Mar-2020 20:43:31 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 44
+[25-Mar-2020 20:43:31 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 51
+[25-Mar-2020 20:43:31 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 51
+[25-Mar-2020 20:43:31 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 51
+[25-Mar-2020 20:46:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[25-Mar-2020 20:46:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 27
+[25-Mar-2020 20:46:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 42
+[25-Mar-2020 20:46:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 42
+[25-Mar-2020 20:46:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 44
+[25-Mar-2020 20:46:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 44
+[25-Mar-2020 20:46:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 44
+[25-Mar-2020 20:46:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 44
+[25-Mar-2020 20:46:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 51
+[25-Mar-2020 20:46:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 51
+[25-Mar-2020 20:46:19 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 51
+[26-Mar-2020 00:24:01 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 00:24:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 00:24:01 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 00:24:01 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 00:24:01 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 00:24:01 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 00:24:01 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 00:24:01 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 00:24:01 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 00:24:01 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 00:44:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 7
+[26-Mar-2020 00:44:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:44:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:44:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:44:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:44:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:44:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:44:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:44:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:44:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:44:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:44:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:44:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 7
+[26-Mar-2020 00:44:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:44:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:44:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:44:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:44:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:44:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:44:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:44:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:44:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:44:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:44:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:45:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:45:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:45:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:45:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:45:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:45:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:45:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:45:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:45:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:45:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:45:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:45:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:45:24 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:45:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:45:24 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:45:24 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:45:24 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:45:24 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:45:24 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:45:24 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:45:24 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:45:24 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:45:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:45:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:45:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:45:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:45:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:45:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:45:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:45:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:45:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:45:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:45:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:45:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:45:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:45:28 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:45:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:45:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:45:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:45:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:45:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:45:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:45:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:45:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:46:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:46:07 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:46:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:46:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:46:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:46:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:46:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:46:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:46:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:46:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:46:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:46:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:46:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:47:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:47:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:47:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:47:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:47:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:47:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:47:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:47:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:47:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:47:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:47:22 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:47:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:47:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:47:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:47:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:47:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:47:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:47:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:47:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:47:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:47:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:47:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:47:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:47:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:47:28 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:47:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:47:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:47:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:47:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:47:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:47:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:47:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:47:28 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:48:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:48:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:48:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:48:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:48:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:48:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:48:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:48:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:48:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:48:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:48:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:49:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:49:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:49:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:49:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:49:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:49:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:49:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:49:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:49:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:49:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:49:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:50:17 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 7
+[26-Mar-2020 00:50:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:50:17 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 00:50:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:50:17 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:50:17 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 00:50:17 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:50:17 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:50:17 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 00:50:17 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:50:17 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:50:17 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 00:52:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:52:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:55:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:55:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:55:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:55:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:55:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:55:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:56:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:56:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 00:56:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 00:56:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 01:01:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 01:01:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 01:01:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 01:01:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 01:01:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 8
+[26-Mar-2020 01:01:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 01:04:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:04:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:07:09 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 11
+[26-Mar-2020 01:07:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:11) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 12
+[26-Mar-2020 01:07:09 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:07:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:07:09 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:07:09 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:07:09 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:07:09 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:07:09 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:07:09 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:07:09 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:07:09 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:07:24 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 11
+[26-Mar-2020 01:07:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:11) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 12
+[26-Mar-2020 01:07:25 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:07:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:07:25 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:07:25 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:07:25 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:07:25 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:07:25 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:07:25 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:07:25 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:07:25 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:10:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 11
+[26-Mar-2020 01:10:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:11) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 12
+[26-Mar-2020 01:10:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:10:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:10:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:10:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:10:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:10:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:10:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:10:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:10:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:10:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:10:49 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 11
+[26-Mar-2020 01:10:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:11) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 12
+[26-Mar-2020 01:10:49 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:10:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:10:49 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:10:49 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:10:49 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:10:49 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:10:49 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:10:49 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:10:49 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:10:49 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:10:58 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:10:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:10:58 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:10:58 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:10:58 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:10:58 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:10:58 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:10:58 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:10:58 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:10:58 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:11:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 11
+[26-Mar-2020 01:11:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:11) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 12
+[26-Mar-2020 01:11:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:11:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:11:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:11:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:11:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:11:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:11:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:11:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:11:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:11:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:12:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 11
+[26-Mar-2020 01:12:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:11) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 12
+[26-Mar-2020 01:12:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:12:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:12:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:12:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:12:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:12:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:12:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:12:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:12:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:12:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:12:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:12:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:12:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:12:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:12:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:12:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:12:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:12:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:12:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:12:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:12:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 11
+[26-Mar-2020 01:12:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:11) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 12
+[26-Mar-2020 01:12:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:12:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:12:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:12:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:12:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:12:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:12:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:12:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:12:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:12:46 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:14:03 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 11
+[26-Mar-2020 01:14:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:11) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 12
+[26-Mar-2020 01:14:03 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:14:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:14:03 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:14:03 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:14:03 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:14:03 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:14:03 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:14:03 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:14:03 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:14:03 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:14:43 UTC] PHP Notice:  Undefined variable: pag in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 9
+[26-Mar-2020 01:14:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 12
+[26-Mar-2020 01:14:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:9) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:14:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:14:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:14:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:14:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:14:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:14:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:14:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:14:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:14:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:14:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:14:54 UTC] PHP Notice:  Undefined variable: pag in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 9
+[26-Mar-2020 01:14:54 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 12
+[26-Mar-2020 01:14:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:9) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:14:54 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:14:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:14:54 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:14:54 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:14:54 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:14:54 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:14:54 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:14:54 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:14:54 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:14:54 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:16:45 UTC] PHP Notice:  Undefined index: pag in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 9
+[26-Mar-2020 01:16:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:9) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:16:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:16:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:16:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:16:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:16:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:16:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:16:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:16:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:16:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:16:45 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:17:52 UTC] PHP Notice:  Undefined index: pag in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 9
+[26-Mar-2020 01:17:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:9) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:17:52 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:17:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:17:52 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:17:52 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:17:52 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:17:52 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:17:52 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:17:52 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:17:52 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:17:52 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:22:04 UTC] PHP Notice:  Undefined index: pag in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 9
+[26-Mar-2020 01:22:38 UTC] PHP Notice:  Undefined index: pag in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 9
+[26-Mar-2020 01:23:01 UTC] PHP Notice:  Undefined index: pag in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 9
+[26-Mar-2020 01:23:13 UTC] PHP Notice:  Undefined index: pag in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 9
+[26-Mar-2020 01:23:50 UTC] PHP Notice:  Undefined index: pag in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 9
+[26-Mar-2020 01:23:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:9) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 14
+[26-Mar-2020 01:23:50 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:23:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:23:50 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:23:50 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:23:50 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:23:50 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:23:50 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:23:50 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:23:50 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:23:50 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:24:00 UTC] PHP Notice:  Undefined index: pag in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 9
+[26-Mar-2020 01:24:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:9) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 14
+[26-Mar-2020 01:24:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:24:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:24:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:24:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:24:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:24:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:24:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:24:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:24:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:24:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:25:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:16) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[26-Mar-2020 01:25:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 01:25:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 01:25:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 01:25:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 01:25:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:25:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:25:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:25:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:25:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:25:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:25:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:16) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[26-Mar-2020 01:25:42 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 01:25:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 01:25:42 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 01:25:42 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 01:25:42 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:25:42 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:25:42 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:25:42 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:25:42 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:25:42 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:25:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:16) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[26-Mar-2020 01:25:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 01:25:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 01:25:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 01:25:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 01:25:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:25:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:25:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:25:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:25:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:25:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:36:15 UTC] PHP Warning:  include(modulos/ver_usuarios.php?=pagina1): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 72
+[26-Mar-2020 01:36:15 UTC] PHP Warning:  include(): Failed opening 'modulos/ver_usuarios.php?=pagina1' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 72
+[26-Mar-2020 01:38:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 5
+[26-Mar-2020 01:38:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:18) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[26-Mar-2020 01:38:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 01:38:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 01:38:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 01:38:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 01:38:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:38:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:38:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:38:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:38:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:38:21 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:40:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 5
+[26-Mar-2020 01:40:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:18) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[26-Mar-2020 01:40:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 01:40:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 01:40:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 01:40:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 01:40:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:40:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:40:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:40:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:40:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:40:05 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:41:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:41:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:41:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:41:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:41:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:41:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:41:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:41:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:41:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:41:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:42:06 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:42:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:42:06 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:42:06 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:42:06 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:42:06 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:42:06 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:42:06 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:42:06 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:42:06 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:49:18 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:49:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:49:18 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:49:18 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:49:18 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:49:18 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:49:18 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:49:18 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:49:18 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:49:18 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:49:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:49:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:49:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:49:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:49:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:49:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:49:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:49:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:49:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:49:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:49:55 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:49:55 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:49:55 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:49:55 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:49:55 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:49:55 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:49:55 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:49:55 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:49:55 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:49:55 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:50:34 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 12
+[26-Mar-2020 01:50:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 28
+[26-Mar-2020 01:50:34 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:50:34 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 43
+[26-Mar-2020 01:50:34 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:50:34 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:50:34 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 47
+[26-Mar-2020 01:50:34 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:50:34 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:50:34 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 56
+[26-Mar-2020 01:51:12 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 5
+[26-Mar-2020 01:51:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/index.php:18) in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 6
+[26-Mar-2020 01:51:12 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 15
+[26-Mar-2020 01:51:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 31
+[26-Mar-2020 01:51:12 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 01:51:12 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 46
+[26-Mar-2020 01:51:12 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:51:12 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:51:12 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 50
+[26-Mar-2020 01:51:12 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:51:12 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:51:12 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/modulos/ver_usuarios.php on line 59
+[26-Mar-2020 01:55:33 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:55:38 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:55:38 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:55:38 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:55:38 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:55:39 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:55:39 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:56:05 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:56:10 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:56:11 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:56:11 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:56:11 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:56:27 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:58:14 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:58:14 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:58:14 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:58:31 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:58:42 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:58:49 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:58:58 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:59:03 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:59:17 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 01:59:20 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 13
+[26-Mar-2020 02:07:10 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/jjusto/public_html/medicion/PanelAdmin/cabecera.php on line 12
+[26-Mar-2020 02:24:34 UTC] PHP Warning:  include(cabecera.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 9
+[26-Mar-2020 02:24:34 UTC] PHP Warning:  include(): Failed opening 'cabecera.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/PanelAdmin/index.php on line 9

@@ -1,0 +1,484 @@
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:55:59 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 52
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 17:59:02 UTC] PHP Notice:  Undefined index: estado in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 53
+[09-May-2020 18:32:43 UTC] PHP Notice:  Undefined variable: idProforma in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 66
+[09-May-2020 18:32:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php:66) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[09-May-2020 18:39:49 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/detalle_proforma.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/detalle_proforma.php on line 25
+[09-May-2020 18:50:00 UTC] PHP Notice:  Undefined variable: cadena in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/detalle_proforma.php on line 68
+[09-May-2020 18:53:57 UTC] PHP Parse error:  syntax error, unexpected '&' in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/detalle_proforma.php on line 62
+[29-Jun-2020 18:06:05 UTC] PHP Notice:  Undefined index: idcategoriaproforma in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 26
+[29-Jun-2020 18:06:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::tipodetrabajo() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 31
+[29-Jun-2020 18:06:46 UTC] PHP Notice:  Undefined index: idcategoriaproforma in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 26
+[29-Jun-2020 18:06:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:26) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:06:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 61
+[29-Jun-2020 18:07:30 UTC] PHP Notice:  Undefined index: idcategoriaproforma in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 26
+[29-Jun-2020 18:07:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:26) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:07:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 61
+[29-Jun-2020 18:07:54 UTC] PHP Notice:  Undefined index: idcategoriaproforma in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 26
+[29-Jun-2020 18:07:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:26) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:07:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 61
+[29-Jun-2020 18:08:08 UTC] PHP Notice:  Undefined index: idcategoriaproforma in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 26
+[29-Jun-2020 18:08:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:26) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:08:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 61
+[29-Jun-2020 18:09:49 UTC] PHP Notice:  Undefined index: idcategoriaproforma in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 26
+[29-Jun-2020 18:09:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:26) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:09:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 61
+[29-Jun-2020 18:12:43 UTC] PHP Notice:  Undefined index: idcategoriaproforma in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 26
+[29-Jun-2020 18:12:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:26) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:12:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 61
+[29-Jun-2020 18:14:31 UTC] PHP Notice:  Undefined index: idcategoriaproforma in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 26
+[29-Jun-2020 18:14:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:26) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:14:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 61
+[29-Jun-2020 18:15:03 UTC] PHP Notice:  Undefined index: idcategoriaproforma in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 26
+[29-Jun-2020 18:15:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:26) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:15:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 61
+[29-Jun-2020 18:18:52 UTC] PHP Notice:  Undefined variable: categoria in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 27
+[29-Jun-2020 18:18:52 UTC] PHP Notice:  Undefined variable: categoria in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 28
+[29-Jun-2020 18:18:52 UTC] PHP Notice:  Undefined variable: categoria in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 29
+[29-Jun-2020 18:18:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:27) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:18:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 61
+[29-Jun-2020 18:22:25 UTC] PHP Notice:  Undefined index: idcategoriapro in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 26
+[29-Jun-2020 18:22:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:26) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:22:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 61
+[29-Jun-2020 18:25:52 UTC] PHP Notice:  Undefined index: idcategoriapro in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 26
+[29-Jun-2020 18:25:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:26) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:25:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 61
+[29-Jun-2020 18:25:54 UTC] PHP Notice:  Undefined index: idcategoriapro in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 26
+[29-Jun-2020 18:25:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:26) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:25:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 61
+[29-Jun-2020 18:27:29 UTC] PHP Notice:  Undefined index: idcategoriapro in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 26
+[29-Jun-2020 18:27:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:26) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:27:29 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 61
+[29-Jun-2020 18:29:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 18:29:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 18:48:48 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 18:48:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 18:48:48 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 18:48:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:48:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 18:48:48 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 18:48:48 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 18:48:48 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 18:48:48 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 18:48:48 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 18:48:48 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 18:50:29 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 18:50:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 18:50:29 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 18:50:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:50:29 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 18:50:29 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 18:50:29 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 18:50:29 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 18:50:29 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 18:50:29 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 18:50:29 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 18:50:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 18:50:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:24) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:50:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 18:50:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 18:50:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 18:50:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 18:50:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 18:50:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 18:50:39 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 18:51:11 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 18:51:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 18:51:11 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 18:51:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 18:51:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 18:51:11 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 18:51:11 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 18:51:11 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 18:51:11 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 18:51:11 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 18:51:11 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:02:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 19:02:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 19:02:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:02:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:02:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 19:02:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:02:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:02:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 19:02:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:02:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:02:00 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:02:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 19:02:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 19:02:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:02:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:02:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 19:02:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:02:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:02:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 19:02:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:02:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:02:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:02:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 19:02:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 19:02:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:02:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:02:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 19:02:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:02:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:02:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 19:02:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:02:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:02:44 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:03:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 19:03:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 19:03:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:03:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:03:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 19:03:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:03:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:03:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 19:03:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:03:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:03:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:08:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 19:08:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 19:08:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:08:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:08:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 19:08:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:08:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:08:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 19:08:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:08:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:08:32 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:10:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 19:10:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 19:10:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:10:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:10:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 19:10:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:10:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:10:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 19:10:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:10:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:10:08 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:13:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 19:13:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 19:13:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:13:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:13:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 19:13:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:13:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:13:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 19:13:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:13:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:13:43 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:13:51 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 19:13:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 19:13:51 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:13:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:13:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 19:13:51 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:13:51 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:13:51 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 19:13:51 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:13:51 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:13:51 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:17:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 19:17:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 19:17:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:17:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:17:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 19:17:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:17:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:17:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 19:17:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:17:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:17:33 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:17:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 19:17:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 19:17:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:17:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:17:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 19:17:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:17:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:17:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 19:17:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:17:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:17:35 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:18:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 19:18:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 19:18:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:18:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:18:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 19:18:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:18:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:18:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 19:18:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:18:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:18:23 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:18:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 19:18:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 19:18:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:18:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:18:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 19:18:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:18:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:18:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 19:18:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:18:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:18:26 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:25:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 21
+[29-Jun-2020 19:25:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 22
+[29-Jun-2020 19:25:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:25:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:21) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:25:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 64
+[29-Jun-2020 19:25:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:25:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 19:25:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 83
+[29-Jun-2020 19:25:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:25:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:25:36 UTC] PHP Notice:  Undefined index: pagina in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 92
+[29-Jun-2020 19:32:07 UTC] PHP Notice:  A non well formed numeric value encountered in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 24
+[29-Jun-2020 19:32:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:24) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[29-Jun-2020 19:32:07 UTC] PHP Notice:  A non well formed numeric value encountered in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 79
+[29-Jun-2020 20:18:38 UTC] PHP Notice:  Undefined index: categoria in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 31
+[29-Jun-2020 20:18:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:31) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[19-Jul-2020 02:29:59 UTC] PHP Warning:  include(cabeceraProducto.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 17
+[19-Jul-2020 02:29:59 UTC] PHP Warning:  include(): Failed opening 'cabeceraProducto.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 17
+[19-Jul-2020 02:29:59 UTC] PHP Warning:  include(range.php): failed to open stream: No such file or directory in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 38
+[19-Jul-2020 02:29:59 UTC] PHP Warning:  include(): Failed opening 'range.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 38
+[19-Jul-2020 02:31:01 UTC] PHP Fatal error:  Uncaught Error: Class 'producto' not found in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 10
+[19-Jul-2020 02:31:12 UTC] PHP Fatal error:  Uncaught Error: Class 'producto' not found in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 10
+[19-Jul-2020 02:36:13 UTC] PHP Fatal error:  Uncaught Error: Class 'producto' not found in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 10
+[18-Jul-2020 22:37:13 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:37:13 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:37:13 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:37:13 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:40:26 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:40:26 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:40:26 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:40:26 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:40:44 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 129
+[18-Jul-2020 22:40:44 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 129
+[18-Jul-2020 22:40:44 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 132
+[18-Jul-2020 22:40:44 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 95
+[18-Jul-2020 22:40:47 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:40:47 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:40:47 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:40:47 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:40:48 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:40:48 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:40:48 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:40:48 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:40:50 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:40:50 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:40:50 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:40:50 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:40:51 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:40:51 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:40:51 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:40:51 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:40:53 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:40:53 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:40:53 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:40:53 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:42:57 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:42:57 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:42:57 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:42:57 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:42:59 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:42:59 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:42:59 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:42:59 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:43:00 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:43:00 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:43:00 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:43:00 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:43:06 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:43:06 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:43:06 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:43:06 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:43:07 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:43:07 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:43:07 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:43:07 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:43:09 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:43:09 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:43:09 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:43:09 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:43:10 America/La_Paz] PHP Notice:  Undefined variable: iniciar in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:43:10 America/La_Paz] PHP Notice:  Undefined variable: articulo_x_pagina in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 116
+[18-Jul-2020 22:43:10 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/php/classProforma.php on line 119
+[18-Jul-2020 22:43:10 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:45:24 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:46:06 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:47:08 America/La_Paz] PHP Fatal error:  Uncaught Error: Call to undefined method proforma::reporteTotalProductoprecio() in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php:83
+Stack trace:
+#0 /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php(38): include()
+#1 {main}
+  thrown in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 83
+[18-Jul-2020 22:48:57 America/La_Paz] PHP Notice:  Undefined variable: listar_precio_reporte in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 93
+[18-Jul-2020 22:48:57 America/La_Paz] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 93
+[18-Jul-2020 22:49:36 America/La_Paz] PHP Notice:  Undefined variable: n in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 91
+[18-Jul-2020 22:50:19 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:50:19 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:50:19 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:50:19 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:50:19 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:50:19 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:50:19 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:50:19 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:50:19 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:50:19 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:51:56 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:51:56 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:51:56 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:51:56 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:51:56 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:51:56 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:51:56 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:51:56 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:51:56 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:51:56 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:02 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:02 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:02 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:02 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:02 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:02 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:02 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:02 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:02 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:02 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:14 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:14 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:14 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:14 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:14 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:14 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:14 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:14 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:14 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:14 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:14 America/La_Paz] PHP Notice:  Undefined variable: preciototal in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/ver_proforma.php on line 49
+[18-Jul-2020 22:52:50 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:50 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:50 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:50 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:50 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:50 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:50 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:50 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:50 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[18-Jul-2020 22:52:50 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[19-Jul-2020 02:52:53 UTC] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 152
+[19-Jul-2020 02:52:53 UTC] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 152
+[19-Jul-2020 02:52:53 UTC] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 152
+[19-Jul-2020 02:52:53 UTC] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 152
+[19-Jul-2020 02:52:53 UTC] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 152
+[19-Jul-2020 02:52:53 UTC] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 152
+[19-Jul-2020 02:52:53 UTC] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 152
+[19-Jul-2020 02:52:53 UTC] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 152
+[19-Jul-2020 02:52:53 UTC] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 152
+[19-Jul-2020 02:52:53 UTC] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 152
+[19-Jul-2020 02:52:55 UTC] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 152
+[19-Jul-2020 02:52:55 UTC] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 152
+[19-Jul-2020 02:52:55 UTC] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 152
+[18-Jul-2020 22:53:09 America/La_Paz] PHP Notice:  Undefined variable: rcom in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/range.php on line 98
+[19-Jul-2020 02:53:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/detalle_proforma.php on line 15
+[19-Jul-2020 02:53:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jjusto/public_html/medicion/PanelAdmin/Proforma/detalle_proforma.php:15) in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/cabeceraProforma.php on line 4
+[19-Jul-2020 02:53:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/jjusto/public_html/medicion/PanelAdmin/Proforma/detalle_proforma.php on line 57
