@@ -29,71 +29,79 @@ if ($cliente == 0) {
 $cont_proforma = $p->contenidoProforma($idProforma);
 include "cabeceraProforma.php";
 ?>
-</div>
-<div id="contenidos">
-	<br>
-	<br>
-	<table class="tabla">
-		<tr>
-			<td><b>Nombre:</b></td>
-			<td><?=$nombreC?></td>
-		</tr>
-		<tr>
-			<td><b>Telefono:</b></td>
-			<td><?=$telefonoC?></td>
-		</tr>
-	</table>
-	<table id="tabla" class="table table-striped">
-						<tr>
-							<th>Ancho</th>
-							<th>Alto</th>
-							<th>Nombre del producto</th>
-							<th>Cantidad</th>
-							<th>Precio por unidad</th>
-							<th>Precio Total</th>
-						</tr>
-						<?php
-						$monto_total = 0;
-						while($rcom = mysqli_fetch_array($cont_proforma)){
-							$monto_total = $monto_total + $rcom['preciot'];
-							?>
+<div id="content-wrapper" class="d-flex flex-column">
+		<div id="content">
+			<div class="container-fluid"><br>
+				<div class="card">
+					<div class="card-body">
+						<div class="d-sm-flex align-items-center justify-content-between mb-4">
+		                   <h1 class="h3 mb-0 text-gray-800">Cotización</h1>
+		             	</div>
+						<table class="tabla">
 							<tr>
-								<td>
-									<?php
-										if ($rcom['ancho'] == 0) {
-											?>
-											------
-											<?php
-										}else{
-											?>
-											<?=$rcom['ancho']?>
-											<?php
-										}
-									?>
-								</td>
-								<td>
-									<?php
-										if ($rcom['alto'] == 0) {
-											?>
-											------
-											<?php
-										}else{
-											?>
-											<?=$rcom['alto']?>
-											<?php
-										}
-									?>
-								</td>
-								<td><?=$rcom['detalle']?></td>
-								<td><?=$rcom['cantidad']?></td>
-								<td><?=$rcom['preciou']?>  <?=$divisa?></td>
-								<td><?=$rcom['preciot']?>  <?=$divisa?></td>
+								<td><b>Nombre:</b></td>
+								<td><?=$nombreC?></td>
 							</tr>
-							<?php
-						}
-						?>
-					</table>
-					<h2>Monto Total: <b class="text-green"><?=$monto_total?> <?=$divisa?></b></h2>
+							<tr>
+								<td><b>Telefono:</b></td>
+								<td><?=$telefonoC?></td>
+							</tr>
+						</table>
+						<table id="tabla" class="table table-striped">
+											<tr>
+												<th class="titulotabla">Ancho</th>
+												<th class="titulotabla">Alto</th>
+												<th class="titulotabla">Nombre del producto</th>
+												<th class="titulotabla">Cantidad</th>
+												<th class="titulotabla">Precio por unidad</th>
+												<th class="titulotabla">Precio Total</th>
+											</tr>
+											<?php
+											$monto_total = 0;
+											while($rcom = mysqli_fetch_array($cont_proforma)){
+												$monto_total = $monto_total + $rcom['preciot'];
+												?>
+												<tr>
+													<td>
+														<?php
+															if ($rcom['ancho'] == 0) {
+																?>
+																------
+																<?php
+															}else{
+																?>
+																<?=$rcom['ancho']?>
+																<?php
+															}
+														?>
+													</td>
+													<td>
+														<?php
+															if ($rcom['alto'] == 0) {
+																?>
+																------
+																<?php
+															}else{
+																?>
+																<?=$rcom['alto']?>
+																<?php
+															}
+														?>
+													</td>
+													<td><?=$rcom['detalle']?></td>
+													<td><?=$rcom['cantidad']?></td>
+													<td><?=$rcom['preciou']?>  <?=$divisa?></td>
+													<td><?=$rcom['preciot']?>  <?=$divisa?></td>
+												</tr>
+												<?php
+											}
+											?>
+										</table>
+										<h2>Monto Total: <b class="text-green"><?=$monto_total?> <?=$divisa?></b></h2>
+</div>
+</div>
+</div>
+</div>
 </div>
 <?php
 // header('Location: http://justo-juez.com/medicion/PanelAdmin/Proforma/ver_proforma.php?pagina=1');

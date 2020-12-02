@@ -40,16 +40,16 @@ if(isset($_SESSION["nombre"]))
 											<th class="titulotabla">Cantidad</th>
 										</tr>
 										<?php
-													while($rinv = mysqli_fetch_array($inventariopro)){
-														?>
-														<tr>
-															<td class="mayuscula"><?=utf8_encode($rinv['nombre'])?></td>
-															<td class="mayuscula"><?=$rinv['precio']?> <?=$divisa?></td>
-															<td class="mayuscula"><?=$rinv['cantidad']?></td>
-														</tr>
-														<?php
-													}
-													?>
+											while($rinv = mysqli_fetch_array($inventariopro)){
+										?>
+											<tr>
+												<td class="mayuscula"><?=utf8_encode($rinv['nombre'])?></td>
+												<td class="mayuscula"><?=$rinv['precio']?> <?=$divisa?></td>
+												<td class="mayuscula"><?=$rinv['cantidad']?></td>
+											</tr>
+										<?php
+										}
+										?>
 									</table>
 									<nav aria-label="Page navigation example">
 									  <ul class="pagination">

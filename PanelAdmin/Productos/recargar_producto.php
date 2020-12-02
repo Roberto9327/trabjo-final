@@ -17,155 +17,100 @@ if(isset($_SESSION["nombre"]) && $_SESSION["AccesoSuperUser"] == 'Administrador'
 	$listarprod = $p->listarproductos();
 	include "cabeceraProducto.php";
 	?>
-</div>
-<div id="contenidos">
-	<div id='contenidos2'>
-		<h1>Recargar stock de productos</h1>
+<div id="content-wrapper" class="d-flex flex-column">
+		<div id="content">
+			<div class="container-fluid"><br>
+				<div class="card">
+					<div class="card-body">
+						<div class="d-sm-flex align-items-center justify-content-between mb-4">
+		                   <h1 class="h3 mb-0 text-gray-800">Recargar stock de productos</h1>
+		             	</div>
+							<form  id="ffrecargadeproductos" name="ffrecargadeproductos">
 
-		<form  id="ffrecargadeproductos" name="ffrecargadeproductos">
+								<div class="row">
+										<div  class="form-group col-xl-4 col-md-6 mb-4">
+											<label>Tipo documento</label>
+											<select id="tipoboleta" name="tipoboleta" class="form-control" onchange="seleccionado()">
+												<option selected  value="Factura">Factura</option>
+												<option  value="Proforma">Proforma</option>
+												<option  value="Receibo">Receibo</option>
+												<option  value="Nota de venta">Nota de venta</option>
+											</select><br>
+										</div>
+										<div class="form-group col-xl-4 col-md-6 mb-4">
+											<label>Numero documento</label>
+											<input type="number" class="form-control" id="numdoc" name="numdoc" title="Numero de documento"  placeholder="Numero de documento"  onkeyUp="calcular()" value="0" />
+										</div>
+										<div class="form-group col-xl-4 col-md-6 mb-4">
+												<label>Fecha</label>
+												<input type="date" class="form-control" id="cfecha" name="cfecha" title="fecha"  placeholder="fecha"  />
+											</div>
+									</div>
 
-			<div class="formu">
-				<div class="mitad-col">
-					<div>
-						<label>Tipo documento</label>
-						<select id="tipoboleta" name="tipoboleta" class="form-control" onchange="seleccionado()">
-							<option selected  value="Factura">Factura</option>
-							<option  value="Proforma">Proforma</option>
-							<option  value="Receibo">Receibo</option>
-							<option  value="Nota de venta">Nota de venta</option>
-						</select><br>
-					</div>
-					<div>
-						<label>Numero documento</label>
-						<div class="form-group">
-							<input type="number" class="form-control" id="numdoc" name="numdoc" title="Numero de documento"  placeholder="Numero de documento"  onkeyUp="calcular()" value="0" />
-						</div>
-					</div>
-				</div>
-				<br>
+									<div class="row">
+										<div class="form-group col-xl-4 col-md-6 mb-4">
+											<label>Proveedores</label>
+											<select id="proveedores" name="proveedores" class="form-control">
+												<?php
+												while($rprov = mysqli_fetch_array($listarprov)){
+													?>
+													<option value="<?=$rprov['id']?>"><?=utf8_decode ($rprov['nombre'])?></option>
+													<?php
+												}
+												?>
+											</select>
+										</div>
+										<div class="form-group col-xl-4 col-md-6 mb-4">
+											<label>Producto</label>
+											<select id="productos" name="productos" class="form-control">
+												<?php
+												while($rprod = mysqli_fetch_array($listarprod)){
+													?>
+													<option value="<?=$rprod['id']?>"><?=utf8_decode ($rprod['nombre'])?></option>
+													<?php
+												}
+												?>
+											</select>
+										</div>
+										<div class="form-group col-xl-4 col-md-6 mb-4">
+											<label>Cantidad</label>
+											<div class="form-group">
+												<input type="text" class="form-control" name="cantidad" title="Cantidad"  placeholder="Cantidad" required />
+											</div>
+										</div>
+									</div>
+																		
+									<div class="row">
+										<div class="form-group col-xl-4 col-md-6 mb-4">
+											<label>Precio compra uni.</label>
+											<input type="text" class="form-control" id="preciou" name="preciou" title="Precio unitario en Bs."  placeholder="Precio unitario en Bs." required onkeyUp="calcular()" value="0"  />
+										</div>
+										<div class="form-group col-xl-4 col-md-6 mb-4">
+											<label>precio para la venta</label>
+											<input type="text" class="form-control" id="total-input" name="total-input" title="Precio total en Bs."  placeholder="Precio total en Bs." required />
+										</div>
+										<div class="form-group col-xl-4 col-md-6 mb-4">
+											<label>Porcentaje para la venta</label>
+											<input type="number" class="form-control" id="porcentaje" name="porcentaje" title="Porsentaje %"  placeholder="Porsentaje %"  onkeyUp="calcular()" value="0" />
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group col-xl-8 col-md-6 mb-4">
+											<label>Obcervaciones</label>
+											<textarea class="form-control" id="obcerbaciones" name="obcerbaciones"></textarea>
+										</div>
+									</div>
+									<div class="row">
+										<div class="btnproforma form-group col-xl-4 col-md-6 mb-4">
+										<a id="recargarproductostok" class="btn btn-success" name="recargarproductostok" >  Recargar producto</a>
+										</div>
+									</div>
 
-				<div class="mitad-col">
-					<div>
-						<label>Nro. De autorizacion</label>
-						<div class="form-group">
-							<input type="number" class="form-control" id="nautorizacion" name="nautorizacion" title="Nro. De autorizacion"  placeholder="Nro. De autorizacion"  value="0" />
-						</div>
-					</div>
-				</div>
-				<br>
-
-				<div class="mitad-col">
-					<div>
-						<label>Codigo de control</label>
-						<div class="form-group">
-							<input type="number" class="form-control" id="ccontrol" name="ccontrol" title="Codigo de control"  placeholder="Codigo de control"  value="0" />
-						</div>
-					</div>
-				</div>
-				<br>
-
-				<div class="mitad-col">
-					<div>
-						<label>Fecha</label>
-						<div class="form-group">
-							<input type="date" class="form-control" id="cfecha" name="cfecha" title="fecha"  placeholder="fecha"  />
-						</div>
-					</div>
-				</div>
-				<br>
-
-				<div class="mitad-col" >
-					<div>
-						<label>Proveedores</label>
-						<select id="proveedores" name="proveedores" class="form-control">
-							<?php
-							while($rprov = mysqli_fetch_array($listarprov)){
-								?>
-								<option value="<?=$rprov['id']?>"><?=utf8_decode ($rprov['nombre'])?></option>
-								<?php
-							}
-							?>
-						</select>
-						<br>
-					</div>
-					<div>
-						<label>Producto</label>
-						<select id="productos" name="productos" class="form-control">
-							<?php
-							while($rprod = mysqli_fetch_array($listarprod)){
-								?>
-								<option value="<?=$rprod['id']?>"><?=utf8_decode ($rprod['nombre'])?></option>
-								<?php
-							}
-							?>
-						</select>
-					</div>
-
-					<br>
-				</div>
-				<br>
-
-				<div class="mitad-col">
-					<div>
-						<label>Cantidad</label>
-						<div class="form-group">
-							<input type="text" class="form-control" name="cantidad" title="Cantidad"  placeholder="Cantidad" required />
-						</div>
-					</div>
-					<div>
-						<label>Precio compra uni.</label>
-						<div class="form-group">
-							<input type="text" class="form-control" id="preciou" name="preciou" title="Precio unitario en Bs."  placeholder="Precio unitario en Bs." required onkeyUp="calcular()" value="0"  />
-						</div>
-					</div>
-					<div>
-						<label>precio para la venta</label>
-						<div class="form-group">
-							<input type="text" class="form-control" id="total-input" name="total-input" title="Precio total en Bs."  placeholder="Precio total en Bs." required />
-						</div>
-					</div>
-					<div>
-						<label>Porcentaje para la venta</label>
-						<div class="form-group">
-							<input type="number" class="form-control" id="porcentaje" name="porcentaje" title="Porsentaje %"  placeholder="Porsentaje %"  onkeyUp="calcular()" value="0" />
-						</div>
-					</div>
-				</div>
-				<br>
-
-				<div class="mitad-col">
-					<div>
-						<textarea id="obcerbaciones" name="obcerbaciones" width='500px' heigth='200px'></textarea>
-					</div>
-				</div>
-				<br>
-
-				<div class="mitad-col" id="opciones-sf">
-					<div>
-						<label>En caso de compra sin factura</label>
-						<select id="sinfactura" name="sinfactura" class="form-control">
-							<option selected value="Seleccione una opcion">Seleccione una opcion</option>
-							<option value="Sin retencion">Sin retencion</option>
-							<option value="Con retencion">Con retencion</option>
-						</select>
-					</div>
-				</div>
-				
-				
-				
-				
-			</div><br>
-			<div>
-				<div class="btnproforma form-group">
-					<a id="recargarproductostok" class="btn btn-success" name="recargarproductostok" >  Recargar producto</a>
-				</div>
-			</div>
-
-		</form>
+							</form>
 	</div>
-	
+	</div>
 </div>
-
+</div>
 </div>
 </body>
 </html>

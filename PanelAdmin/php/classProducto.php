@@ -292,7 +292,7 @@ public function habilitarProducto($estado,$idProducto)
   {
       $mysqli = connect();
     $conex=$mysqli;
-    $sql="select prp.id ,pr.nombre as 'nombreproducto', p.nombre as 'nombreproveedor', prp.cantidad, prp.preciou, prp.preciot, prp.fecha, prp.estado FROM proveedor_recarga_productos AS prp INNER JOIN productos AS pr ON prp.id_producto = pr.id INNER JOIN proveedores AS p ON prp.id_proveedor = p.id WHERE prp.estado <> 0 order by id desc limit $iniciar,$articulo_x_pagina";
+    $sql="select prp.id ,pr.nombre as 'nombreproducto', p.nombre as 'nombreproveedor', prp.cantidad, prp.precio, prp.porcentaje, prp.precioventa, prp.documento, prp.num_documento, prp.fecha, prp.obcervaciones, prp.estado FROM proveedor_recarga_productos AS prp INNER JOIN productos AS pr ON prp.id_producto = pr.id INNER JOIN proveedores AS p ON prp.id_proveedor = p.id WHERE prp.estado <> 0 order by id  desc limit $iniciar,$articulo_x_pagina";
     $consul=$conex->query($sql);
     return $consul;
   }
