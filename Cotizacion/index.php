@@ -155,11 +155,11 @@ if(isset($_SESSION["idproforma"]))
 
 <?php
 }else{
-header('Location: http://justo-juez.com/medicion/home.php');
+header('Location: http://localhost/medicion/home.php');
 }
 }
 else
 {
-header('Location: http://justo-juez.com/medicion');
+header('Location: http://localhost/medicion');
 }
 ?>
