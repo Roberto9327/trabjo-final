@@ -46,9 +46,10 @@ if(isset($_SESSION["idproforma"]))
 	}
 	$_SESSION['pronombredelcliente'] =$nombredelcliente;
 	$_SESSION['protelefonodelcliente'] =$telefonodelcliente;
+
+
 	?>
 	
-
 <div id="content-wrapper" class="d-flex flex-column">
 	<div id="content">
 		<div class="container-fluid"><br>
@@ -88,16 +89,16 @@ if(isset($_SESSION["idproforma"]))
 						<form method="post" action="" id="datostrab" name="datostrab">
 							<div class="row">
 								<div class="form-group col-xl-2 col-md-6 mb-4">
-									<input type="number"  id="ancho" class="form-control" name="ancho" title="INTRODUSCA EL ANCHO EN MM"  placeholder="Ancho" required />
+									<input type="number"  id="ancho" class="form-control" class="ancho" name="ancho" title="INTRODUSCA EL ANCHO EN MM"  placeholder="Ancho" required />
 								</div>
 								<div class="form-group col-xl-2 col-md-6 mb-4">
-									<input type="number"  id="alto" class="form-control" name="alto" title="INTRODUSCA EL ALTO EN MM"  placeholder="Alto" required />
+									<input type="number"  id="alto" class="form-control" class="alto" name="alto" title="INTRODUSCA EL ALTO EN MM"  placeholder="Alto" required />
 								</div>
 								<div class="form-group col-xl-2 col-md-6 mb-4">
-									<input type="number"  id="cantidad" class="form-control" name="cantidad" title="INTRODUSCA LA CANTIDAD DE PUERTAS O VENTANAS"  placeholder="Cantidad" required />
+									<input type="number"  id="cantidad" class="form-control" class="cantidad" name="cantidad" title="INTRODUSCA LA CANTIDAD DE PUERTAS O VENTANAS"  placeholder="Cantidad" required />
 								</div>
 								<div  class="form-group col-xl-4 col-md-6 mb-4">
-									<select  class="form-control" id="cotizar" name="cotizar">
+									<select  class="form-control" id="cotizar" class="cotizar" name="cotizar" onchange="cotizar();">
 										<option value="">Seleccione una opcion</option>
 										<?php
 										while($rcat2 = mysqli_fetch_array($tipo)){
@@ -131,7 +132,7 @@ if(isset($_SESSION["idproforma"]))
 								<div class="btnproforma">
 									<input type="button" value="Cotizar medidas" id="cotizarbtn" class="btn btn-success" name="">
 
-									<input type="submit" value="Agregar al carrito" id="agregarbtn" class="btn btn-success" name="Agregar">
+									<input type="submit" value="Agregar al carrito" id="agregarbtn" class="btn btn-success agregarbtn" name="Agregar">
 								</div>
 							</div>
 

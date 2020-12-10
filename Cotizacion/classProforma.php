@@ -51,6 +51,13 @@ public function contarproforma()
   $proforma = "creada exitosamente";
 	return $proforma;
   }
+   public function consultasProductosPorId($id)
+  {
+    $mysqli = connect();
+    $conex=$mysqli;
+  $sql="select * from productos where id=$id and estado<>0";
+  return $conex->query($sql);
+  }
   public function seleccionarproforma($nomproforma)
   {
     $mysqli = connect();

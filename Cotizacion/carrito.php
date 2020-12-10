@@ -1,6 +1,13 @@
 <?php 
 session_start();
-
+       
+		//unset($_SESSION["idproducto"]);
+		//unset($_SESSION["nombreproducto"]);
+		//unset($_SESSION["precioventa"]);
+		//unset($_SESSION["cantidad"]);
+		//unset($_SESSION["total"]);
+		//unset($_SESSION["alto"]);
+		//unset($_SESSION["ancho"]);
 if(isset($_SESSION["nombre"]))
 {
 if(isset($_SESSION["idproforma"])) 
@@ -72,37 +79,59 @@ if(isset($_SESSION["idproforma"]))
 							<h2>Telefono: <?=$telefonodelcliente?></h2>
 							<table class="table table-striped">
 								<tr>
-									<th>Ancho</th>
-									<th>Alto</th>
-									<th>Nombre del producto</th>
-									<th>Cantidad</th>
-									<th>Precio por unidad</th>
-									<th>Precio Total</th>
-									<th>Action</th>
+									<th style="width: 10%;">Ancho</th>
+									<th style="width: 10%;">Alto</th>
+									<th style="width: 40%;">Nombre del producto</th>
+									<th style="width: 10%;">Precio</th>
+									<th style="width: 8%;">Cantidad</th>
+									<th style="width: 12%;">Precio Total</th>
+									<th style="width: 10%;">Action</th>
 								</tr>
 								<?php
-						// $cats = $mysqli->query("SELECT * FROM trabajos ORDER BY detalle ASC");
-								$monto_total = 0;
-								$cadena = "";
-								while($rcom = mysqli_fetch_array($carrit)){
-									$monto_total = $monto_total + $rcom['preciot'];
-									$cadena .=$rcom['ancho']."-".$rcom['alto']."-".$rcom['detalle']."-".$rcom['cantidad']."-".$rcom['preciou']."-".$rcom['preciot']."/";
+								if (isset($_SESSION["idproducto"])) {
+									
+
+								}
+								if (!isset($_SESSION["idproducto"])) {
+									$n=0;
+								}else{
+									$contador = $_SESSION["idproducto"];
+									$n=count($contador);
+								}
+								//$n=count($contador);
+								echo "<b>Cantidad de Productos: </b>".$n;
+								for($i=0;$i<$n;$i++)
+					            {
 									?>
 									<tr>
-										<td><?=$rcom['ancho']?></td>
-										<td><?=$rcom['alto']?></td>
-										<td><?=$rcom['detalle']?></td>
-										<td><?=$rcom['cantidad']?></td>
-										<td><?=$rcom['preciou']?>  <?=$divisa?></td>
-										<td><?=$rcom['preciot']?>  <?=$divisa?></td>
-										<td><a href='eliminar_producto.php?id=<?=$rcom['id']?>'><img src="../img/borrar.png" width="20px" title="Eliminar producto del carrito"> </a></td>
+									<?php if(isset($_SESSION["idproducto"][$i]))
+									{
+									?>
+									<td ><?php echo $_SESSION["ancho"][$i]; ?></td>
+									<td ><?php echo $_SESSION["alto"][$i]; ?></td>
+									<td ><?php echo $_SESSION["nombreproducto"][$i]; ?></td>
+									<td class="pven" ><?php echo $_SESSION["precioventa"][$i]; ?></td>
+									<td ><input type="number" name="canti" class="canti" value="<?php echo $_SESSION["cantidad"][$i]; ?>"></td>
+									<td class="tot" ><?php echo $_SESSION["total"][$i];?></td>
+									<td ><input type="hidden" value="<?php echo $i; ?>" class="valive"><a class="elimvent"><img src="../img/borrar.png" style="width:50%;"></a></td>
 									</tr>
 									<?php
+									}
 								}
-								$cadena .= "monto total ".$monto_total;
 								?>
 							</table>
-							<h2>Monto Total: <b class="text-green"><?=$monto_total?> <?=$divisa?></b></h2>
+							<?php
+							$n=$_SESSION["caN"];
+							$sum=0;
+							for($i=0;$i<$n;$i++)
+							{
+								if(isset($_SESSION["idproducto"][$i]))
+								{
+								 $sum=$sum+$_SESSION["total"][$i];
+								}
+							}
+						    ?>
+							<p id="valtotal" style="font-size:22px;"><b>TOTAL DE VENTA: Bs.</b><?php echo $sum; ?></p><br><br>
 							<a target="_blank" href="generar_pdf.php" class=" btn btn-success">Generar pdf</a>
 							<a  href="finproforma.php" class=" btn btn-success">Finalizar proforma</a>
 						</div>
@@ -113,27 +142,27 @@ if(isset($_SESSION["idproforma"]))
 							//Conesta variable quiero sacar la fecha y adjuntarsela al interior de la carpeta temp para que me cree carpetas con la hora y fecha de cada codigo qr   
 							$hoy = getdate();
 							//Declaramos una carpeta temporal para guardar la imagenes generadas
-							$dir = 'temp/'.$nombreproforma.'/';
+							//$dir = 'temp/'.$nombreproforma.'/';
 
 							//Si no existe la carpeta la creamos
-							if (!file_exists($dir))
-								mkdir($dir);
+							//if (!file_exists($dir))
+							//	mkdir($dir);
 
 							//Declaramos la ruta y nombre del archivo a generar
-							$filename = $dir.$nombreproforma.'.png';
+							//$filename = $dir.$nombreproforma.'.png';
 
 				    		//Parametros de Condiguración
 
-							$tamaño = 10; //Tamaño de Pixel
-							$level = 'H'; //Precisión Baja
-							$framSize = 3; //Tamaño en blanco
-							$contenido = $nombredelcliente."/".$telefonodelcliente."/".$cadena; //Texto
+							//$tamaño = 10; //Tamaño de Pixel
+							//$level = 'H'; //Precisión Baja
+							//$framSize = 3; //Tamaño en blanco
+							//$contenido = $nombredelcliente."/".$telefonodelcliente."/".$cadena; //Texto
 
 				  			 //Enviamos los parametros a la Función para generar código QR 
-							QRcode::png($contenido, $filename, $level, $tamaño, $framSize); 
+							//QRcode::png($contenido, $filename, $level, $tamaño, $framSize); 
 
 				   			//Mostramos la imagen generada
-							echo '<img class="qrimg" src="'.$dir.basename($filename).'" width="150px"/><hr/>'; 
+							//echo '<img class="qrimg" src="'.$dir.basename($filename).'" width="150px"/><hr/>'; 
 						?>
 						</div>
 				</div>
@@ -164,7 +193,7 @@ if(isset($_SESSION["idproforma"]))
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Datos del Cliente</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -172,21 +201,21 @@ if(isset($_SESSION["idproforma"]))
     	<form method="post" action="" id="cont_modal" name="cont_modal">
 			<div class="modal-body">
 				<div class="row">
-					<div class="form-group" style='width: 90%;' >
+					<div class="form-group" style='width: 100%;' >
 						<input type="text" class="form-control" name="ncliente" placeholder="Colocar el nombre del Cliente"/>
 					</div>
-					<div class="form-group" style='width: 90%;' >
+					<div class="form-group" style='width: 100%;' >
 						<input type="number" class="form-control" name="tcliente" placeholder="Colocar el telefono del cliente"/>
 					</div>
-					<div class="form-group" style='width: 90%;' >
+					<div class="form-group" style='width: 100%;' >
 						<input type="number" class="form-control" name="nit" placeholder="Colocar el NIT"/>
 					</div>
 					<!--<button type="submit" class="btn btn-success" id="ingresarDatosCliente" name="finalizar_datos_cliente"> Ingresar datos del cliente</button>-->
 				</div>
 	      	</div>
 	      <div class="modal-footer">
-	        <button type="button" class="btn btn-secondary" id="ingresarDatosCliente" name="finalizar_datos_cliente" data-dismiss="modal">Ingresar datos del cliente</button>
-	        <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+	        <button type="button" id="ingresarDatosCliente" name="finalizar_datos_cliente" class="btn btn-primary">Guardar</button>
+	        <button type="button" class="btn btn-secondary"  data-dismiss="modal">Cancelar</button>
 	      </div>
 		</form>
       

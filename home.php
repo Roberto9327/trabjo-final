@@ -3,6 +3,8 @@
 
 	if(isset($_SESSION["nombre"]))
 	{
+		$_SESSION["contadorcarrito"]=0;
+		$_SESSION["caN"]=0;
 		$idexistesesion= $_SESSION["nombre"];
 		include "cabecera.php";
 		?>

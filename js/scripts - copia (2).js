@@ -12,7 +12,7 @@ $(function(){
 			
 			// Generating the markup for the buttons:
 			
-			buttonHTML += '<a href="#" class="button  '+obj['class']+'">'+name+'<span></span></a>';
+			buttonHTML += '<a href="#" class="button '+obj['class']+'">'+name+'<span></span></a>';
 			
 			if(!obj.action){
 				obj.action = function(){};
@@ -44,11 +44,6 @@ $(function(){
 				$.confirm.hide();
 				return false;
 			});
-		});
-	}
-	$.confirm.hide = function(){
-		$('#confirmOverlay').fadeOut(function(){
-			$(this).remove();
 		});
 	}
 	 $("#blogin").click(function(){	    
@@ -124,9 +119,8 @@ $(function(){
 		   }
         }); 
 					});
-	  $("#agregarbtn").click(function(){	
-	  		  
-	    var url="http://localhost/medicion/Cotizacion/adicionaraventaser.php";
+	  $("#agregarbtn").click(function(){	    
+	    var url="http://localhost/medicion/Cotizacion/agregar_trabajo.php";
 	    $.ajax({                        
            type: "post",                 
            url: url,                     
@@ -139,15 +133,10 @@ $(function(){
 				}
 				else
 				{
-					swal({
-					  icon: 'success',
-					  title: 'Exelente!',
-					  text: 'Agregado al carrito'
-					})
 				  location.href="http://localhost/medicion/Cotizacion/index.php";
 				}
 		   }
-        });   
+        });     
 	 });
 	  $("#agregarbtnotros").click(function(){	    
 	    var url="http://localhost/medicion/Cotizacion/agregar_otros.php";
@@ -337,11 +326,11 @@ $(function(){
 	$(document).on("click",".vent",function(e){ 
         var ven=$(this).parent();	 
 		$.confirm({
-					'title'		: 'Añadir Producto',
-					'message'	: 'Esta Seguro que quiere añadir este producto?',
+					'title'		: 'Añadir PRODUCTO A VENTA',
+					'message'	: 'Esta Seguro que quiere añadir este producto a la venta?',
 					'buttons'	: {
 					    'Aceptar'	: {  
-							'class'	: 'gray btn btn-primary btn-icon-split btn-sm',
+							'class'	: 'gray',
 							'action': function(){
 							        var id=ven.parent().find(".valiv").val();
 								    var parametros = {
@@ -352,12 +341,7 @@ $(function(){
 											url:   'http://localhost/medicion/Cotizacion/adicionaraventa.php',
 											type:  'post',
 											success: function(data)             
-											{		
-											swal({
-											  icon: 'success',
-											  title: 'Exelente!',
-											  text: 'Agregado al carrito'
-											})									 	 
+											{											 	 
 											 var tot=data;
 											 $("#valtotal").html("<b>TOTAL DE VENTA: </b> Bs."+tot);
 											}
@@ -366,7 +350,7 @@ $(function(){
 							}	    
 						},
 						'Cancelar'	: {
-							'class'	: 'gray btn btn-secondary btn-icon-split',
+							'class'	: 'gray',
 							'action': function(){}	
 						}
 					}

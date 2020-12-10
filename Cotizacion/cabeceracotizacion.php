@@ -15,16 +15,25 @@ $nombreusuario=$_SESSION["nombre"];
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
+    <link href="../css/styles.css" rel="stylesheet">
     <link href="../css/sb-admin-2.min.css" rel="stylesheet">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <!-- jQuery and JS bundle w/ Popper.js -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">   </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="../js/jquery-1.9.1.min.js"></script>
+    <script src="../js/l-20.js"></script>
+    <script src="../js/l-203y4.js"></script>
+    <script src="../js/vtemplado.js"></script>
     <script src="../js/scripts.js"></script>
     <script src="../js/menu.js"></script>
     <style type="text/css">
       .titulotabla{background: #60a3bc;color: #fff;}
+      .mayuscula{text-transform: capitalize;}
+      .vent img{width: 30%;cursor: pointer;}
+      .elimvent img{width: 30%;cursor: pointer;}
     </style>
 </head>
 <body>

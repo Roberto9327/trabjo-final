@@ -46,6 +46,7 @@ if(isset($_SESSION["idproforma"]))
 	}
 	$_SESSION['pronombredelcliente'] =$nombredelcliente;
 	$_SESSION['protelefonodelcliente'] =$telefonodelcliente;
+	
 	?>
 	
 
@@ -61,28 +62,30 @@ if(isset($_SESSION["idproforma"]))
 						<div class="d-sm-flex align-items-center justify-content-between mb-4">
                         	<h1 class="h3 mb-0 text-gray-800">Accesorios</h1>
                     	</div>
-						<form id="artf" name="artf">
-							<div class="formu estilo">
-								<select id="articulosel" name="art" class="form-control">
-									<option>Seleccione un articulo</option>
-									<?php
-									while($racc = mysqli_fetch_array($accesorio)){
-										?>
-										<option value="<?=$racc['id']?>"><?=utf8_decode ($racc['nombre'])?></option>
+                    	<table class="table table-striped">
+										<tr>
+											<th class="titulotabla">Código</th>
+											<th class="titulotabla">Descripción</th>
+											<th class="titulotabla">Precio Venta</th>
+											<th class="titulotabla">Existencia</th>
+											<th class="titulotabla">Añadir a compras</th>
+										</tr>
 										<?php
-									}
-									?>
-								</select>
-								<div class="form-group">
-									<input type="number"  id="cantpro" class="form-control" name="cantpro" title="Introdusca la cantidad"  placeholder="Cantidad" required />
-								</div>
-							</div>
-							
-							<div class="btnproforma">
-								<input type="button" value="Agregar al carrito" id="articulobtncat" class="btn btn-success" name="Agregarart">
-							</div>
-						</form>
-					<!--////////////////////////////////////////////////////////////////////////////////////////////-->
+											while($rinv = mysqli_fetch_array($accesorio)){
+										?>
+											<tr>
+												<td class="mayuscula">PRO  <?=$rinv['id']?></td>
+												<td class="mayuscula"><?=utf8_encode($rinv['nombre'])?></td>
+												<td class="mayuscula"><?=$rinv['precio']?> <?=$divisa?></td>
+												<td class="mayuscula"><?=$rinv['cantidad']?></td>
+												<td style="width:12%;" class="mayuscula"><input type="hidden" value="<?=$rinv['id']?>" class="valiv"><a class="vent"><img src="../img/vender.png"></a></td>
+											</tr>
+										<?php
+										}
+										?>
+
+						</table>
+						
 				</div>
 			</div>
 		</div>

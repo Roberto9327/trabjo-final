@@ -1,0 +1,19 @@
+<?php 
+session_start();
+$id=$_POST["id"];
+$cant=$_POST["cant"];
+$total=$_POST["total"];
+$_SESSION["cantidad"][$id]=$cant;
+$_SESSION["total"][$id]=$total;
+$n=$_SESSION["caN"];
+$sum=0;
+for($i=0;$i<$n;$i++)
+{
+	if(isset($_SESSION["idproducto"][$i]))
+	{
+	 $sum=$sum+$_SESSION["total"][$i];
+	}
+}
+$_SESSION["totalgeneral"]=$sum;
+echo $_SESSION["totalgeneral"];
+?>
