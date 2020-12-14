@@ -9,209 +9,236 @@ $nombreusuario=$_SESSION["nombre"];
 }
 else
 {
- header('Location: http://justo-juez.com/medicion');
-}
-require('../fpdf.php');
-require('classobra.php');
-// var_dump($nombredeproforma);
-////////////////////////
-class PDF extends FPDF
-{
-// Cabecera de página
-function Header()
-{
-   
-
-    // Logo
-    $this->Image('../img/logo1.png',10,8,20);
-    // Arial bold 15
-    $this->SetFont('Arial','B',18);
-    // Movernos a la derecha
-    $this->Cell(70);
-    // Título
-    $this->Cell(60,10,utf8_decode('Reporte de obra'),0,0,'C');
-    $this->SetFont('Arial','B',8);
-    // Salto de línea
-    $this->Ln(20);
+ header('Location: http://localhost/medicion');
 }
 
-// Pie de página
-function Footer()
-{
-    // Posición: a 1,5 cm del final
-    $this->SetY(-15);
-    // Arial italic 8
-    $this->SetFont('Arial','I',8);
-    // Número de página
-    $this->Cell(0,10,utf8_decode('Página ').$this->PageNo().'/{nb}',0,0,'C');
-}
 
-}
 
-//////////////////////////////////////////////
+$resultado="
+<!Doctype html> 
+<html> 
+<head> 
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+</head>
+<body><center>
+<br>
+<table >
+<tr>
+<td style='width:250px;text-align:left;'>
+    <img src='../img/logo1.png' style='width:70px;'>
+    <p>
+        <b>Vidrieria Justo Juez</b><br>
+        Cuarto anillo diagonal 2 de agosto<br>
+        Telf 72693473 - 33604354
+    </p>
+</td>
+<td style='width:250px;text-align:center;'><h3>Detalle de Obra</h3></td>
+<td style='width:250px;text-align:rigth;'></td>
+</tr>
+</table></center>";
+/*require('classProforma.php');
+$descr=$_POST["tb"];
+$p=new proforma();
+$filas=$p->reportesProductosPorDescripcion($descr);
+$n=$filas->num_rows;*/
 
-//////////////////////////////////
-
-/////////////////////////
- $p = new obra();
+    include "classobra.php";
+    $p = new obra();
     $idObra = $_GET['id'];
     $buscarobras = $p->buscarObra($idObra);
     $fila=mysqli_fetch_array($buscarobras);
-    $nombre = $fila[1];
-    $productopro = $fila[2];
-    $cliente = $fila[3];
-    $fecha = $fila[4];
+    $nombreobra = $fila[1];
+    $idcotizacion = $fila[2];
+
+    $idbuscarcotizacion = $p->buscarcotizacion($idcotizacion);
+    $filacot = mysqli_fetch_array($idbuscarcotizacion);
+    $cliente = $filacot[2];
+
+    $buscarnombredecliente = $p->buscarCliente($cliente);
+    $filacli=mysqli_fetch_array($buscarnombredecliente);
+    $idcliente = $filacli[0];
+    $nombreC =  $filacli[1];
+    $telefonoC =  $filacli[2];
+    $nit =  $filacli[3];
+
     $divisa ="Bs.";
-    if ($cliente == 0) {
-        $nombreC="S/N";
-        $telefonoC="S/N";
-    }else{
-        $clientes= $p->buscarCliente($cliente);
-        $filas=mysqli_fetch_array($clientes);
-        $idcliente =$filas[0];
-        $nombreC = $filas[1];
-        $telefonoC = $filas[2];
-        $nit = $filas[3];
-    }
+
     $cont_obra = $p->contenidoobra($idObra);
     $cont_pago = $p->contenidopago($idObra,$idcliente);
-    $productoproforma = $p->listarproductosproforma($productopro);
-    $productoproformae = $p->listarproductosproformae($productopro);
+    $productoproforma = $p->listarproductosproforma($idcotizacion);
+    $productoproformae = $p->listarproductosproformae($idcotizacion);
 
-
-
-$pdf = new PDF();
-$pdf->AliasNbPages();
-$pdf->AddPage();
-$pdf->SetFont('Arial','B',15);
-$pdf->Cell(40,10,utf8_decode('Vidrieria Justo Juez'));
-$pdf->Ln(5);
-$pdf->SetFont('Arial','B',8);
-$pdf->Cell(40,10,utf8_decode('Cuarto anillo diagonal 2 de agosto'));
-$pdf->Ln(5);
-$pdf->Cell(40,10,utf8_decode('Telf 72693473 - 33604354'));
-$pdf->SetFont('Arial','B',11);
-$pdf->Ln(10);
-$pdf->Cell(25,7,utf8_decode("OBRA:"),1,0,'L',0);
-$pdf->SetFont('Arial','B',10);
-$pdf->Cell(30,7,utf8_decode($nombre),0,0,'L',0);
-$pdf->Ln(7);
-$pdf->SetFont('Arial','B',10);
-$pdf->Cell(25,7,utf8_decode("NOMBRE:"),1,0,'L',0);
-$pdf->SetFont('Arial','B',10);
-$pdf->Cell(30,7,utf8_decode($nombreC),0,0,'L',0);
-$pdf->SetFont('Arial','B',10);
-$pdf->SetFont('Arial','B',10);
-$pdf->Cell(25,7,utf8_decode("TELEFONO:"),1,0,'L',0);
-$pdf->SetFont('Arial','B',10);
-$pdf->Cell(30,7,utf8_decode($telefonoC),0,0,'L',0);
-$pdf->SetFont('Arial','B',10);
-$pdf->Cell(19,7,utf8_decode("NIT:"),1,0,'L',0);
-$pdf->SetFont('Arial','B',10);
-$pdf->Cell(30,7,utf8_decode($nit),0,0,'L',0);
-$pdf->SetFont('Arial','B',10);
-$pdf->Ln(10);
-$pdf->SetFont('Arial','B',13);
-$pdf->Cell(40,10,utf8_decode('Inversión'));
-$pdf->SetFont('Arial','B',8);
-$pdf->Ln(10);
-$pdf->Cell(130,9,utf8_decode("Detalle"),1,0,'C',0); 
-$pdf->Cell(20,9,utf8_decode("Cantidad"),1,0,'C',0);
-$pdf->Cell(20,9,utf8_decode("Precio"),1,0,'C',0);
-$pdf->Cell(20,9,utf8_decode("Fecha"),1,1,'C',0);
-$montototalinvertido =0;
-while ( $row = $cont_obra->fetch_assoc()) {
-    $montototalinvertido = $montototalinvertido + $row['precio'];
-    $pdf->Cell(130,9,utf8_decode($row['detalle']),1,0,'L',0);
-    $pdf->Cell(20,9,utf8_decode($row['cantidad']),1,0,'C',0);
-    $pdf->Cell(20,9,utf8_decode($row['precio']),1,0,'C',0);
-    $pdf->Cell(20,9,utf8_decode($row['fecha']),1,1,'C',0);
-}
-$pdf->Cell(130);
-$pdf->Cell(30,9,utf8_decode("Monto Total"),1,0,'C',0);
-$pdf->Cell(30,9,utf8_decode($montototalinvertido."Bs."),1,0,'C',0);
-$pdf->Ln(10);
-
-$pdf->SetFont('Arial','B',13);
-$pdf->Cell(40,10,utf8_decode('Registro de pagos'));
-$pdf->SetFont('Arial','B',8);
-$pdf->Ln(10);
-$pdf->Cell(130,9,utf8_decode("Detalle"),1,0,'C',0); 
-$pdf->Cell(30,9,utf8_decode("Monto"),1,0,'C',0);
-$pdf->Cell(30,9,utf8_decode("Fecha"),1,1,'C',0);
-$montototalpagocliente =0;
-while ( $row1 = $cont_pago->fetch_assoc()) {
-    $montototalpagocliente = $montototalpagocliente + $row1['monto'];
-    $pdf->Cell(130,9,utf8_decode($row1['detalle']),1,0,'L',0);
-    $pdf->Cell(30,9,utf8_decode($row1['monto']),1,0,'C',0);
-    $pdf->Cell(30,9,utf8_decode($row1['fecha']),1,1,'C',0);
-}
-$pdf->Cell(130);
-$pdf->Cell(30,9,utf8_decode("Monto Total"),1,0,'C',0);
-$pdf->Cell(30,9,utf8_decode($montototalpagocliente."Bs."),1,0,'C',0);
-$pdf->Ln(10);
-
-$pdf->SetFont('Arial','B',13);
-$pdf->Cell(40,10,utf8_decode('Productos'));
-$pdf->SetFont('Arial','B',8);
-$pdf->Ln(10);
-$pdf->Cell(130,9,utf8_decode("Detalle"),1,0,'C',0); 
-$pdf->Cell(20,9,utf8_decode("Cantidad"),1,0,'C',0);
-$pdf->Cell(20,9,utf8_decode("Precio U"),1,0,'C',0);
-$pdf->Cell(20,9,utf8_decode("Precio T"),1,1,'C',0);
-$pdf->SetFont('Arial','B',8);
-$montototalproductos =0;
-while ( $row5 = $productoproforma->fetch_assoc()) {
-    $montototalproductos = $montototalproductos + $row5['preciot'];
-    if ($row5['ancho'] == 0 || $row5['alto'] == 0 ) {
-        $pdf->Cell(130,9,utf8_decode($row5['detalle']),1,0,'L',0); 
-    }else{
-       $pdf->Cell(130,9,utf8_decode($row5['detalle']." \n ".$row5['ancho']. " x ".$row5['alto']),1,'L'); 
+    $resultado.="
+    <table>
+                    <tr>
+                        <td ><b>Obra:</b></td>
+                        <td >".$nombreobra."</td>
+                    </tr>
+                    <tr>
+                        <td><b>Cliente:</b></td>
+                        <td>".$nombreC."</td>
+                    </tr>
+                    <tr>
+                        <td ><b>Telefono:</b></td>
+                        <td >".$telefonoC."</td>
+                    </tr>
+                    <tr>
+                        <td><b>Nit:</b></td>
+                        <td>".$nit."</td>
+                    </tr>
+        </table>
+    <br>
+        <b>Materiales Utilizados</b>
+    <table  border='1' cellspacing='0' cellpadding='2' >
+                    <tr>
+                        <th style='width:500px;'>Detalle</th>
+                        <th style='width:100px;'>Cantidad</th>
+                        <th style='width:100px;'>Precio</th>
+                        <th style='width:100px;'>Fecha</th>
+                     </tr>";
+                     $monto_total = 0;
+    while($rcom = mysqli_fetch_array($cont_obra)){
+    $monto_total = $monto_total + $rcom['precio'];
+        $resultado.="<tr>
+                        <td style='text-align:left;'>".$rcom['nombre']."</td>
+                        <td style='text-align:center;'>".$rcom['cantidad']."</td>
+                        <td style='text-align:center;'>".$rcom['precio']."</td>
+                        <td style='text-align:center;'>".$rcom['fecha']."</td>
+        </tr>";
     }
-    $pdf->Cell(20,9,utf8_decode($row5['cantidad']),1,0,'C',0);
-    $pdf->Cell(20,9,utf8_decode($row5['preciou']),1,0,'C',0);
-    $pdf->Cell(20,9,utf8_decode($row5['preciot']),1,1,'C',0);
-}
-$pdf->Cell(130);
-$pdf->Cell(30,9,utf8_decode("Monto Total"),1,0,'C',0);
-$pdf->Cell(30,9,utf8_decode($montototalproductos."Bs."),1,0,'C',0);
-$pdf->Ln(10);
-
-$pdf->SetFont('Arial','B',13);
-$pdf->Cell(40,10,utf8_decode('Adicionales'));
-$pdf->SetFont('Arial','B',8);
-$pdf->Ln(10);
-$pdf->Cell(130,9,utf8_decode("Detalle"),1,0,'C',0); 
-$pdf->Cell(20,9,utf8_decode("Cantidad"),1,0,'C',0);
-$pdf->Cell(20,9,utf8_decode("Precio U"),1,0,'C',0);
-$pdf->Cell(20,9,utf8_decode("Precio T"),1,1,'C',0);
-$pdf->SetFont('Arial','B',8);
-$montototalproductose =0;
-while ( $row6 = $productoproformae->fetch_assoc()) {
-    $montototalproductose = $montototalproductose + $row6['preciot'];
-    if ($row6['ancho'] == 0 || $row6['alto'] == 0 ) {
-        $pdf->Cell(130,9,utf8_decode($row6['detalle']),1,0,'L',0); 
-    }else{
-       $pdf->Cell(130,9,utf8_decode($row6['detalle']." \n ".$row6['ancho']. " x ".$row6['alto']),1,'L'); 
+    $resultado.="</table>
+    <br>
+    <b>pagos del cliente</b>
+    <table  border='1' cellspacing='0' cellpadding='2' >
+                    <tr>
+                        <th style='width:500px;'>Detalle</th>
+                        <th style='width:100px;'>Monto</th>
+                        <th style='width:100px;'>Fecha</th>
+                     </tr>";
+                     $monto_total_pago = 0;
+    while($rpag = mysqli_fetch_array($cont_pago)){
+    $monto_total_pago = $monto_total_pago + $rpag['monto'];
+        $resultado.="<tr>
+                        <td style='text-align:left;'>".$rpag['detalle']."</td>
+                        <td style='text-align:center;'>".$rpag['monto']."</td>
+                        <td style='text-align:center;'>".$rpag['fecha']."</td>
+        </tr>";
     }
-    $pdf->Cell(20,9,utf8_decode($row6['cantidad']),1,0,'C',0);
-    $pdf->Cell(20,9,utf8_decode($row6['preciou']),1,0,'C',0);
-    $pdf->Cell(20,9,utf8_decode($row6['preciot']),1,1,'C',0);
-}
-$pdf->Cell(130);
-$pdf->Cell(30,9,utf8_decode("Monto Total"),1,0,'C',0);
-$pdf->Cell(30,9,utf8_decode($montototalproductose."Bs."),1,0,'C',0);
-$pdf->Ln(10);
+    $resultado.="</table>
 
-$pdf->SetFont('Arial','B',13);
-$pdf->Cell(40,10,utf8_decode('Detalle de movimiento'));
-$pdf->Ln(10);
-$montototalproductos = $montototalproductos + $montototalproductose;
-$pdf->SetFont('Arial','B',8);
-$pdf->Cell(20,9,utf8_decode('Compras'),1,0,'C',0); 
-$pdf->Cell(20,9,utf8_decode($montototalinvertido." Bs."),1,1,'C',0);
-$pdf->Cell(20,9,utf8_decode('Monto Pagado'),1,0,'C',0);
-$pdf->Cell(20,9,utf8_decode($montototalpagocliente." Bs."),1,1,'C',0);
-$pdf->Output();
+    <br>
+    <b>Cotización</b>
+    <table  border='1' cellspacing='0' cellpadding='2' >
+                    <tr>
+                        <th style='width:500px;'>Nombre del producto</th>
+                        <th style='width:100px;'>Cantidad</th>
+                        <th style='width:100px;'>Precio por unidad</th>
+                        <th style='width:100px;'>Precio Total</th>
+                     </tr>";
+    $monto_total_proforma = 0;
+                    while($rprof = mysqli_fetch_array($productoproforma)){
+                        $monto_total_proforma = $monto_total_proforma + $rprof['preciot'];
+                        if ($rprof['ancho'] == 0 ) {
+                           $ancho = "";
+                        }else{
+                            $ancho = $rprof['ancho'];
+                        }
+                        if ($rprof['alto'] == 0) {
+                           $alto = "";
+                        }else{
+                            $alto = $rprof['alto'];
+                        }
+                         
+                        $resultado.="<tr>";
+                        if ($rprof['alto'] == 0 || $rprof['ancho'] == 0) {
+                           $resultado.=" <td style='text-align:left;' >".$rprof['detalle']."</td>";
+                        }else{
+                            $resultado.=" <td style='text-align:left;' >".$rprof['detalle']." ".$ancho." X ".$alto."</td>";
+                        }
+                       $resultado.="
+                           <td style='text-align:center;'>".$rprof['cantidad']."</td>
+                            <td style='text-align:center;'>".$rprof['preciou']."</td>
+                            <td style='text-align:center;'>".$rprof['preciot']."</td>
+                        </tr>";
+                    }
+    $resultado.="</table><br>
+    <b>adicionales</b>
+    <table  border='1' cellspacing='0' cellpadding='2' >
+                    <tr>
+                        <th style='width:500px;'>Nombre del producto</th>
+                        <th style='width:100px;'>Cantidad</th>
+                        <th style='width:100px;'>Precio por unidad</th>
+                        <th style='width:100px;'>Precio Total</th>
+                     </tr>";
+                     $monto_total_proformae = 0;
+                    while($rprofe = mysqli_fetch_array($productoproformae)){
+                        $monto_total_proformae = $monto_total_proformae + $rprofe['preciot'];
+                        if ($rprofe['ancho'] == 0 ) {
+                           $anchoe = "";
+                        }else{
+                            $anchoe = $rprofe['ancho'];
+                        }
+                        if ($rprofe['alto'] == 0) {
+                           $altoe = "";
+                        }else{
+                            $altoe = $rprofe['alto'];
+                        }
+                         
+                        $resultado.="<tr>";
+                        if ($rprofe['alto'] == 0 || $rprofe['ancho'] == 0) {
+                           $resultado.=" <td style='text-align:left;' >".$rprofe['detalle']."</td>";
+                        }else{
+                            $resultado.=" <td style='text-align:left;' >".$rprofe['detalle']." ".$anchoe." X ".$altoe."</td>";
+                        }
+                       $resultado.="
+                           <td style='text-align:center;'>".$rprofe['cantidad']."</td>
+                            <td style='text-align:center;'>".$rprofe['preciou']."</td>
+                            <td style='text-align:center;'>".$rprofe['preciot']."</td>
+                        </tr>";
+                    }
+    $resultado.="</table> <br><br>";
 
+                $monto_total_proforma = $monto_total_proforma + $monto_total_proformae;
+                $resultado.="<b>Detalle de movimiento</b><table  border='1' cellspacing='0' cellpadding='2' >
+                        <tr>
+                            <td>Monto Total compras:</td>
+                            <td><b>".$monto_total." ".$divisa."</b></td>
+                        </tr>
+                        <tr>
+                            <td>Monto pagado:</td>
+                            <td><b>".$monto_total_pago." ".$divisa."</b></td>
+                        </tr>
+                        <tr>
+                            <td>Deuda del Cliente:</td>
+                            <td>";
+                                $saldo = $monto_total_proforma - $monto_total_pago;
+
+                $resultado.="<b>".$saldo." ".$divisa."</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Monto Total obra:</td>
+                            <td><b>".$monto_total_proforma." ".$divisa."</b></td>
+                        </tr>";
+                            if ($monto_total < $monto_total_proforma) {
+                                $diferencia = $monto_total_proforma - $monto_total;
+                $resultado.=" <tr>
+                                    <td >Se tiene una ganancia de:</td>
+                                    <td><b >".$diferencia." ".$divisa."</b></td>
+                                </tr>";
+                            }
+                            if ($monto_total > $monto_total_proforma) {
+                                $diferencia = $monto_total_proforma - $monto_total;
+                $resultado.="<tr>
+                                    <td >Se tiene una perdida de:</td>
+                                    <td><b >".$diferencia." ".$divisa."</b></td>
+                                </tr>";
+                            }
+                           $resultado.=" </table>";
+$resultado.="</body></html>";
+include("../mpdf/mpdf.php");
+$mpdf=new mPDF();
+//$mpdf->mPDF('utf-8','A4','','','15','15','18','13','7','7');
+$mpdf->WriteHTML($resultado);
+$mpdf->Output('Productos.pdf','I');
 ?>

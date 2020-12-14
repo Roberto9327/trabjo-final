@@ -34,6 +34,7 @@ $nombreusuario=$_SESSION["nombre"];
       .mayuscula{text-transform: capitalize;}
       .vent img{width: 30%;cursor: pointer;}
       .elimvent img{width: 30%;cursor: pointer;}
+      li{list-style: none;}
     </style>
 </head>
 <body>

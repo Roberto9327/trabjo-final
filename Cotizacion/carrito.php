@@ -1,27 +1,25 @@
 <?php 
 session_start();
        
+		//unset($_SESSION["alto"]);
+		//unset($_SESSION["ancho"]);
 		//unset($_SESSION["idproducto"]);
 		//unset($_SESSION["nombreproducto"]);
 		//unset($_SESSION["precioventa"]);
 		//unset($_SESSION["cantidad"]);
 		//unset($_SESSION["total"]);
-		//unset($_SESSION["alto"]);
-		//unset($_SESSION["ancho"]);
 if(isset($_SESSION["nombre"]))
-{
-if(isset($_SESSION["idproforma"])) 
 {
 
 	$nombreusuario=$_SESSION["nombre"];
 	include "cabeceracotizacion.php"; 
-	$idproforma=$_SESSION["idproforma"];
-	$nombreproforma=$_SESSION["nombreproforma"];
+	//$idproforma=$_SESSION["idproforma"];
+	//$nombreproforma=$_SESSION["nombreproforma"];
 	$divisa = "Bs.";
 	require("classProforma.php");
 	$p = new proforma();
 	$cats = $p->categoriaproducto();
-	$carrit = $p->buscardetalle($idproforma);
+	//$carrit = $p->buscardetalle($idproforma);
 	$accesorio = $p->buscandoaccesorios();
 	if (isset($_SESSION['idcategoria'])) {
 		$categoria = $_SESSION['idcategoria'];
@@ -38,21 +36,15 @@ if(isset($_SESSION["idproforma"]))
 
 	}
 
-	$buscaridcliente = $p->buscarnombredelcliente($idproforma);
-	$filacliente=mysqli_fetch_array($buscaridcliente);
-	$iddelclienteencontrado=$filacliente[2];
 
-	if ($iddelclienteencontrado > 0) {
-		$mostrarcliente2 = $p->mostrardatosclienteexistentes($iddelclienteencontrado);
-		$filabcliente2=mysqli_fetch_array($mostrarcliente2);
-		$nombredelcliente=$filabcliente2[1];
-		$telefonodelcliente=$filabcliente2[2];
+	if (isset($_SESSION["nombrecliente"])) {
+		$nombredelcliente=$_SESSION["nombrecliente"];
+		$telefonodelcliente=$_SESSION["telefonocliente"];
+		$nitckiente = $_SESSION["nitcliente"];
 	}else{
 		$nombredelcliente="S/N";
 		$telefonodelcliente="S/N";
 	}
-	$_SESSION['pronombredelcliente'] =$nombredelcliente;
-	$_SESSION['protelefonodelcliente'] =$telefonodelcliente;
 	?>
 	
 
@@ -68,9 +60,6 @@ if(isset($_SESSION["idproforma"]))
 		<!--////////////////////////////////////////////////////////////////////////////////////////////-->
 					<div class="carrito">
 						<div class="proformadetalle">
-							<h1><img src="../img/libreta.png" width="30px"> 
-								<?php echo $nombreproforma;?>
-							</h1>
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
 			 				 Datos del cliente
 							</button>
@@ -133,7 +122,7 @@ if(isset($_SESSION["idproforma"]))
 						    ?>
 							<p id="valtotal" style="font-size:22px;"><b>TOTAL DE VENTA: Bs.</b><?php echo $sum; ?></p><br><br>
 							<a target="_blank" href="generar_pdf.php" class=" btn btn-success">Generar pdf</a>
-							<a  href="finproforma.php" class=" btn btn-success">Finalizar proforma</a>
+							<a  href="finproforma.php" class=" btn btn-success">Finalizar Nota</a>
 						</div>
 
 						<?php
@@ -198,7 +187,7 @@ if(isset($_SESSION["idproforma"]))
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-    	<form method="post" action="" id="cont_modal" name="cont_modal">
+    	<form method="post" action="" id="datoscliente" name="datoscliente">
 			<div class="modal-body">
 				<div class="row">
 					<div class="form-group" style='width: 100%;' >
@@ -208,13 +197,13 @@ if(isset($_SESSION["idproforma"]))
 						<input type="number" class="form-control" name="tcliente" placeholder="Colocar el telefono del cliente"/>
 					</div>
 					<div class="form-group" style='width: 100%;' >
-						<input type="number" class="form-control" name="nit" placeholder="Colocar el NIT"/>
+						<input type="number" class="form-control" name="nitcliente" placeholder="Colocar el NIT"/>
 					</div>
 					<!--<button type="submit" class="btn btn-success" id="ingresarDatosCliente" name="finalizar_datos_cliente"> Ingresar datos del cliente</button>-->
 				</div>
 	      	</div>
 	      <div class="modal-footer">
-	        <button type="button" id="ingresarDatosCliente" name="finalizar_datos_cliente" class="btn btn-primary">Guardar</button>
+	        <button type="button" id="ingresarDatosCliente" name="datos_cliente" class="btn btn-primary">Guardar</button>
 	        <button type="button" class="btn btn-secondary"  data-dismiss="modal">Cancelar</button>
 	      </div>
 		</form>
@@ -226,9 +215,6 @@ if(isset($_SESSION["idproforma"]))
 </html>
 
 <?php
-}else{
-header('Location: http://localhost/medicion/home.php');
-}
 }
 else
 {

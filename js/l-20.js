@@ -47,8 +47,8 @@ $(function(){
 			}
 			console.log(preciounitario);
 			console.log(preciototal);
-			document.getElementById('preciounitario').innerHTML = "<label style='color:#449d44!important;'>Precio Unitario</label><br><input type='text' class='preciou' name='preciou' value='"+preciounitario+"' > Bs.<br>";
-			document.getElementById('preciototal').innerHTML = "<label style='color:#449d44!important;'>Precio Total</label><br><input type='text' class='preciot' name='preciot' value='"+preciototal+"' > Bs.<br>";
+			document.getElementById('preciounitario').innerHTML = "<label style='color:#449d44!important;'>Precio Unitario</label><br><input type='text' class='preciou form-control' name='preciou' value='"+preciounitario+"' > Bs.<br>";
+			document.getElementById('preciototal').innerHTML = "<label style='color:#449d44!important;'>Precio Total</label><br><input type='text' class='preciot form-control' name='preciot' value='"+preciototal+"' > Bs.<br>";
 			}
 			if(tipo==="Ventana carpinteria de aluminio 2 hojas vidrio de color" && tipocantidad==="mas de tres")
 	 		{
@@ -77,8 +77,8 @@ $(function(){
 				preciounitario = Math.round(preciounitario);
 				var preciototal = preciounitario * cantidad;
 			}
-			document.getElementById('preciounitario').innerHTML = "<label style='color:#449d44!important;'>Precio Unitario</label><br><input type='text'' class='preciou name='preciou' value='"+preciounitario+"' > Bs.<br>";
-			document.getElementById('preciototal').innerHTML = "<label style='color:#449d44!important;'>Precio Total</label><br><input type='text' class='preciot' name='preciot' value='"+preciototal+"' > Bs.<br>";
+			document.getElementById('preciounitario').innerHTML = "<label style='color:#449d44!important;'>Precio Unitario</label><br><input type='text' class='preciou form-control' name='preciou' value='"+preciounitario+"' > Bs.<br>";
+			document.getElementById('preciototal').innerHTML = "<label style='color:#449d44!important;'>Precio Total</label><br><input type='text' class='preciot form-control' name='preciot' value='"+preciototal+"' > Bs.<br>";
 			}
 
 ///////////////////////////////////////////////////////////////
@@ -109,8 +109,8 @@ $(function(){
 				var preciototal = preciounitario * cantidad;
 			}
 
-			document.getElementById('preciounitario').innerHTML = "<label style='color:#449d44!important;'>Precio Unitario</label><br><input type='text'' class='preciou name='preciou' value='"+preciounitario+"' > Bs.<br>";
-			document.getElementById('preciototal').innerHTML = "<label style='color:#449d44!important;'>Precio Total</label><br><input type='text' class='preciot' name='preciot' value='"+preciototal+"' > Bs.<br>";
+			document.getElementById('preciounitario').innerHTML = "<label style='color:#449d44!important;'>Precio Unitario</label><br><input type='text' class='preciou form-control' name='preciou' value='"+preciounitario+"' > Bs.<br>";
+			document.getElementById('preciototal').innerHTML = "<label style='color:#449d44!important;'>Precio Total</label><br><input type='text' class='preciot form-control' name='preciot' value='"+preciototal+"' > Bs.<br>";
 			}
 			if(tipo=="Ventana carpinteria de aluminio 2 hojas vidrio trasparente" && tipocantidad==="mas de tres")
 	 		{
@@ -139,8 +139,8 @@ $(function(){
 				preciounitario = Math.round(preciounitario);
 				var preciototal = preciounitario * cantidad;
 			}
-			document.getElementById('preciounitario').innerHTML = "<label style='color:#449d44!important;'>Precio Unitario</label><br><input type='text' class='preciou name='preciou' value='"+preciounitario+"' > Bs.<br>";
-			document.getElementById('preciototal').innerHTML = "<label style='color:#449d44!important;'>Precio Total</label><br><input type='text'class='preciot' name='preciot' value='"+preciototal+"' > Bs.<br>";
+			document.getElementById('preciounitario').innerHTML = "<label style='color:#449d44!important;'>Precio Unitario</label><br><input type='text' class='preciou form-control' name='preciou' value='"+preciounitario+"' > Bs.<br>";
+			document.getElementById('preciototal').innerHTML = "<label style='color:#449d44!important;'>Precio Total</label><br><input type='text'class='preciot form-control' name='preciot' value='"+preciototal+"' > Bs.<br>";
 			}
 
 

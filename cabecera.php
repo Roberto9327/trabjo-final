@@ -23,6 +23,32 @@ $nombreusuario=$_SESSION["nombre"];
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/menu.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Effort', 'Amount given'],
+          ['Rodamientos',     50],
+          ['Seguros',     30],
+          ['Chapas',     20],
+        ]);
+
+        var options = {
+          pieHole: 0.5,
+          pieSliceTextStyle: {
+            color: 'black',
+          },
+          legend: 'none'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donut_single'));
+        chart.draw(data, options);
+      }
+    </script>
 </head>
 <body>
   <div  id="wrapper">

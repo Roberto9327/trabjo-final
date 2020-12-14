@@ -78,7 +78,7 @@ if(isset($_SESSION["nombre"]) )
 									?>
 									<tr>
 										<td class="mayuscula"><?=$rcom['nombre']?></td>
-										<td class="mayuscula"><?=$rcom['id_proforma']?></td>
+										<td class="mayuscula"><?=$rcom['id_cotizacion']?></td>
 										<td class="mayuscula"><?=$rcom['fecha']?></td>
 										<td>
 											<a href='detalle_obra.php?id=<?=$rcom['id']?>'><img src="../img/ojo.png" width="22px" title="ver detalle de proforma">&nbsp; </a>

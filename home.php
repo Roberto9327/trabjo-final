@@ -3,7 +3,6 @@
 
 	if(isset($_SESSION["nombre"]))
 	{
-		$_SESSION["contadorcarrito"]=0;
 		$_SESSION["caN"]=0;
 		$idexistesesion= $_SESSION["nombre"];
 		include "cabecera.php";
@@ -17,25 +16,22 @@
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
                     </div>
 				  	<div class="row">
-				  		<form name="fproforma" id="fproforma" class="col-xl-3 col-md-6 mb-4"><!--  method="post" action="Proforma/generar_numero_proforma.php" -->
-				  			<div  class="card border-left-primary shadow h-100 py-2" id="proforma" > 
-								<div class="card-body">
+				  		
+				     <a href="Cotizacion"  class="col-xl-3 col-md-6 mb-4"> 
+				 			<div class="card border-left-primary shadow h-100 py-2">
+				 				<div class="card-body">
 				 					<div class="row no-gutters align-items-center">
 				 						<div class="col mr-2">
-				 							<!--<img src="img/proforma.png">-->
-				  							<p class="text-xs font-weight-bold text-primary text-uppercase mb-1">COTIZACIÓN</p>
-				  							<input type="hidden" value="<?php echo $idexistesesion?>" name="sesionnombre	">
+				 							<!--<img src="img/inventario.png">-->
+				 							<p class="text-xs font-weight-bold text-primary text-uppercase mb-1">COTIZACIÓN - VENTA</p>
 				 						</div>
 				 						<div class="col-auto">
                                             <img src="img/proforma.png" width="100px">
                                         </div>
 				 					</div>
 				 				</div>
-				  				
-				  			</div>
-				  			<!-- <input type="submit" value="Nueva proforma" name="proforma"> -->
-				  		</form>
-				     
+				 			</div>
+				 		</a>
 				 		<a href="Inventario"  class="col-xl-3 col-md-6 mb-4"> 
 				 			<div class="card border-left-primary shadow h-100 py-2">
 				 				<div class="card-body">
@@ -98,6 +94,9 @@
 				 				</div>
 				 			</div>
 				 		</a>
+				  	</div>
+				  	<div class="row">
+				  		<div id="donut_single" style="width: 500px; height: 500px;margin: 1px solid #333;border-radius: 8px;"></div>
 				  	</div>
 			  	</div>
 			 </div>

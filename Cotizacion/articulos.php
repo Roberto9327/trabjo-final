@@ -3,18 +3,16 @@ session_start();
 
 if(isset($_SESSION["nombre"]))
 {
-if(isset($_SESSION["idproforma"])) 
-{
 
 	$nombreusuario=$_SESSION["nombre"];
 	include "cabeceracotizacion.php"; 
-	$idproforma=$_SESSION["idproforma"];
-	$nombreproforma=$_SESSION["nombreproforma"];
+	//$idproforma=$_SESSION["idproforma"];
+	//$nombreproforma=$_SESSION["nombreproforma"];
 	$divisa = "Bs.";
 	require("classProforma.php");
 	$p = new proforma();
 	$cats = $p->categoriaproducto();
-	$carrit = $p->buscardetalle($idproforma);
+	//$carrit = $p->buscardetalle($idproforma);
 	$accesorio = $p->buscandoaccesorios();
 	if (isset($_SESSION['idcategoria'])) {
 		$categoria = $_SESSION['idcategoria'];
@@ -31,21 +29,14 @@ if(isset($_SESSION["idproforma"]))
 
 	}
 
-	$buscaridcliente = $p->buscarnombredelcliente($idproforma);
-	$filacliente=mysqli_fetch_array($buscaridcliente);
-	$iddelclienteencontrado=$filacliente[2];
-
-	if ($iddelclienteencontrado > 0) {
-		$mostrarcliente2 = $p->mostrardatosclienteexistentes($iddelclienteencontrado);
-		$filabcliente2=mysqli_fetch_array($mostrarcliente2);
-		$nombredelcliente=$filabcliente2[1];
-		$telefonodelcliente=$filabcliente2[2];
+	if (isset($_SESSION["nombrecliente"])) {
+		$nombredelcliente=$_SESSION["nombrecliente"];
+		$telefonodelcliente=$_SESSION["telefonocliente"];
+		$nitckiente = $_SESSION["nitcliente"];
 	}else{
 		$nombredelcliente="S/N";
 		$telefonodelcliente="S/N";
 	}
-	$_SESSION['pronombredelcliente'] =$nombredelcliente;
-	$_SESSION['protelefonodelcliente'] =$telefonodelcliente;
 	
 	?>
 	
@@ -95,9 +86,6 @@ if(isset($_SESSION["idproforma"]))
 </html>
 
 <?php
-}else{
-header('Location: http://localhost/medicion/home.php');
-}
 }
 else
 {

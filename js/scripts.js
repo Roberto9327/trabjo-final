@@ -132,7 +132,7 @@ $(function(){
            url: url,                     
            data: $("#datostrab").serialize(),
            success: function(data)             
-           {
+           {//alert(data);
 				if(data==0)
 				{
 				  $("#mensajelogin").html("El usuario o contraseña ingresados son incorrectos");            
@@ -173,17 +173,12 @@ $(function(){
 	    $.ajax({                        
            type: "post",                 
            url: url,                     
-           data: $("#cont_modal").serialize(),
+           data: $("#datoscliente").serialize(),
            success: function(data)             
            {
-				if(data==0)
-				{
-				  $("#mensajelogin").html("El usuario o contraseña ingresados son incorrectos");            
-				}
-				else
-				{
-				  location.href="http://localhost/medicion/Cotizacion/index.php";
-				}
+			alert(data);
+			location.href="http://localhost/medicion/Cotizacion/carrito.php";
+			
 		   }
         });     
 	 });
@@ -329,7 +324,7 @@ $(function(){
 				}
 				else
 				{
-				  location.href="http://localhosts/medicion/Proveedores/index.php?pagina=1";
+				  location.href="http://localhost/medicion/Proveedores/index.php?pagina=1";
 				}
 		   }
         });     
@@ -416,6 +411,41 @@ $(function(){
 											    $("#valtotal").html("<b>TOTAL DE VENTA: Bs.</b>"+tot);				 
 											}
 									});
+     });
+	 $(document).on("click",".elimvent",function(e){ 
+	 	alert('entra');
+        var eli=$(this).parent();	 
+		$.confirm({
+					'title'		: 'ELIMINAR PRODUCTOS',
+					'message'	: 'Esta Seguro de que desea eliminar este Producto?',
+					'buttons'	: {
+					    'Aceptar'	: {  
+					    'class'	: 'gray  btn btn-primary btn-icon-split btn-sm',
+							'action': function(){
+							        eli.parent().css("display","none");
+									var id=eli.parent().find(".valive").val();
+								    var parametros = {
+											"id" : id
+									};						
+									$.ajax({
+											data:  parametros,
+											url:   'http://localhost/medicion/Cotizacion/eliminardeventa.php',
+											type:  'post',
+											success: function(data)             
+											{
+											  $("#valtotal").html("<b>TOTAL DE VENTA: Bs.</b>"+data);
+											  //location.href="http://localhost/Ventas/Venta-Productos/ventas.php";	
+											}
+									});
+                                    									
+							}	    
+						},
+						'Cancelar'	: {
+							'class'	: 'gray  btn btn-secondary btn-icon-split',
+							'action': function(){}	
+						}
+					}
+		});	    
      });
 
 });

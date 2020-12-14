@@ -7,14 +7,14 @@ $nombreusuario=$_SESSION["nombre"];
 }
 else
 {
- header('Location: http://justo-juez.com/medicion');
+ header('Location: http://localhost/medicion');
 }
-require("classProforma.php");
-$p = new proforma();
-$ncliente = $_POST['ncliente'];
-$tcliente = $_POST['tcliente'];
-$nitcliente = $_POST['nit'];
-$idProforma = $_SESSION["idproforma"];
+//require("classProforma.php");
+//$p = new proforma();
+$_SESSION["nombrecliente"] = $_POST['ncliente'];
+$_SESSION["telefonocliente"] = $_POST['tcliente'];
+$_SESSION["nitcliente"] = $_POST['nitcliente'];
+/*$idProforma = $_SESSION["idproforma"];
 $existeCliente = $p->existecliente($ncliente,$tcliente,$nitcliente);
 if ($existeCliente > 0) {
 	$idcliente = $p->consultaridcliente($ncliente,$tcliente);
@@ -27,7 +27,7 @@ if ($existeCliente > 0) {
 	$fila=mysqli_fetch_array($idcliente);
  	$iddelcliente=$fila[0];
  	$reempazaridcliente = $p->reemplazarid($iddelcliente,$idProforma);
-}
+}*/
 
 ?>
  

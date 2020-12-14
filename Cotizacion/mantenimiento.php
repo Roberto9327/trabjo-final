@@ -3,18 +3,16 @@ session_start();
 
 if(isset($_SESSION["nombre"]))
 {
-if(isset($_SESSION["idproforma"])) 
-{
 
 	$nombreusuario=$_SESSION["nombre"];
 	include "cabeceracotizacion.php"; 
-	$idproforma=$_SESSION["idproforma"];
-	$nombreproforma=$_SESSION["nombreproforma"];
+	//$idproforma=$_SESSION["idproforma"];
+	//$nombreproforma=$_SESSION["nombreproforma"];
 	$divisa = "Bs.";
 	require("classProforma.php");
 	$p = new proforma();
 	$cats = $p->categoriaproducto();
-	$carrit = $p->buscardetalle($idproforma);
+	//$carrit = $p->buscardetalle($idproforma);
 	$accesorio = $p->buscandoaccesorios();
 	if (isset($_SESSION['idcategoria'])) {
 		$categoria = $_SESSION['idcategoria'];
@@ -30,22 +28,14 @@ if(isset($_SESSION["idproforma"]))
 		$tipo = $c->tipodetrabajo($categoria);
 
 	}
-
-	$buscaridcliente = $p->buscarnombredelcliente($idproforma);
-	$filacliente=mysqli_fetch_array($buscaridcliente);
-	$iddelclienteencontrado=$filacliente[2];
-
-	if ($iddelclienteencontrado > 0) {
-		$mostrarcliente2 = $p->mostrardatosclienteexistentes($iddelclienteencontrado);
-		$filabcliente2=mysqli_fetch_array($mostrarcliente2);
-		$nombredelcliente=$filabcliente2[1];
-		$telefonodelcliente=$filabcliente2[2];
+if (isset($_SESSION["nombrecliente"])) {
+		$nombredelcliente=$_SESSION["nombrecliente"];
+		$telefonodelcliente=$_SESSION["telefonocliente"];
+		$nitckiente = $_SESSION["nitcliente"];
 	}else{
 		$nombredelcliente="S/N";
 		$telefonodelcliente="S/N";
 	}
-	$_SESSION['pronombredelcliente'] =$nombredelcliente;
-	$_SESSION['protelefonodelcliente'] =$telefonodelcliente;
 	?>
 	
 
@@ -58,37 +48,37 @@ if(isset($_SESSION["idproforma"]))
 			 include "botones.php";
 			?>
 				<!--////////////////////////////////////////////////////////////////////////////////////////////-->
-					<form method="post" action="" id="datosotros" name="datosotros">
+					<form method="post" action="" id="datostrab" name="datostrab">
 						<div class="row">
 							<div class="form-group col-xl-2 col-md-6 mb-4 ">
-								<input type="number"  id="ancho_otros" class="form-control" name="alto_otros" title="INTRODUSCA EL ANCHO EN MM"  placeholder="Ancho"  />
+								<input type="number"  id="ancho_otros" class="form-control" name="ancho" title="INTRODUSCA EL ANCHO EN MM"  placeholder="Ancho"  />
 							</div>
 							<div class="form-group col-xl-2 col-md-6 mb-4 ">
-								<input type="number"  id="alto_otros" class="form-control" name="ancho_otros" title="INTRODUSCA EL ALTO EN MM"  placeholder="Alto"  />
+								<input type="number"  id="alto_otros" class="form-control" name="alto" title="INTRODUSCA EL ALTO EN MM"  placeholder="Alto"  />
 							</div>
 							<div class="form-group col-xl-2 col-md-6 mb-4 ">
-								<input type="number"  id="cantidad_otros" class="form-control" name="cantidad_otros" title="INTRODUSCA LA CANTIDAD DE PUERTAS O VENTANAS"  placeholder="Cantidad" required />
+								<input type="number"  id="cantidad_otros" class="form-control" name="cantidad" title="INTRODUSCA LA CANTIDAD DE PUERTAS O VENTANAS"  placeholder="Cantidad" required />
 							</div>
 							<br>
 							<div class="form-group col-xl-4 col-md-6 mb-4 ">
-								<input type="text"  id="detalle" class="form-control" name="detalles_otros" title="INTRODUSCA EL DETALLE"  placeholder="Detalle" required />
+								<input type="text"  id="detalle" class="form-control" name="cotizar" title="INTRODUSCA EL DETALLE"  placeholder="Detalle" required />
 							</div>
 							<div class="form-group col-xl-3 col-md-6 mb-4 ">
-								<input type="submit" value="Agregar al carrito" id="agregarbtnotros" class="btn btn-success" name="Agregarotros">
+								<input type="submit" value="Agregar al carrito" id="agregarbtn" class="btn btn-success" name="Agregarotros">
 							</div>
 						</div>
 
 						<br><br>
 
-						<div class="detalle">
+						<div class="row">
 							<table>
 								<tr>
 									<td><label>Precio unitario</label></td>
-									<td><input type="number" name="preciou_otros" ></td>
+									<td><input type="number"class="form-control" name="preciou" ></td>
 								</tr>
 								<tr>
 									<td><label>precio total</label></td>
-									<td><input type="number" name="preciot_otros" ></td>
+									<td><input type="number"class="form-control" name="preciot" ></td>
 								</tr>
 							</table>						
 						</div>
@@ -104,9 +94,6 @@ if(isset($_SESSION["idproforma"]))
 </html>
 
 <?php
-}else{
-header('Location: http://justo-juez.com/medicion/home.php');
-}
 }
 else
 {

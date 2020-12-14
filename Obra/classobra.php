@@ -68,11 +68,19 @@ public function contarobra()
     $consul=$conex->query($sql);
     return $consul;
   }
+   public function buscarcotizacion($idcotizacion)
+  {
+      $mysqli = connect();
+    $conex=$mysqli;
+    $sql="select * from cotizacion where id = $idcotizacion";
+    $consul=$conex->query($sql);
+    return $consul;
+  }
   public function buscarCliente($cliente)
   {
       $mysqli = connect();
     $conex=$mysqli;
-    $sql="select * from cliente where id = $cliente";
+    $sql="select ps.id ,ps.nombre, ps.telefono, c.nit, ps.estado FROM persona AS ps INNER JOIN cliente AS c ON ps.id = c.id_persona  WHERE ps.id = $cliente and ps.estado <> 0 ";
     $consul=$conex->query($sql);
     return $consul;
   }
@@ -80,7 +88,7 @@ public function contarobra()
   {
       $mysqli = connect();
     $conex=$mysqli;
-    $sql="select * from obras_gastos where id_obras = $idobra";
+    $sql="select pr.id ,pr.nombre, pr.precio, m.cantidad, m.precio, m.fecha FROM materiales AS m INNER JOIN productos AS pr ON pr.id = m.id_producto  WHERE m.id_obras = 1  order by m.fecha ASC";
     $consul=$conex->query($sql);
     return $consul;
   }
@@ -169,7 +177,7 @@ public function listarproductosproforma($productopro)
   {
       $mysqli = connect();
     $conex=$mysqli;
-    $sql="select * from detalle_proforma where id_proforma = '$productopro' and extras=0";
+    $sql="select * from detalle_cotizacion where id_cotizacion = '$productopro' and extras=0";
     $consul=$conex->query($sql);
     return $consul;
   }
@@ -177,7 +185,7 @@ public function listarproductosproforma($productopro)
   {
       $mysqli = connect();
     $conex=$mysqli;
-    $sql="select * from detalle_proforma where id_proforma = '$productopro' and extras<>0";
+    $sql="select * from detalle_cotizacion where id_cotizacion = '$productopro' and extras<>0";
     $consul=$conex->query($sql);
     return $consul;
   }
@@ -185,7 +193,7 @@ public function listarproductosproforma($productopro)
   {
     $mysqli = connect();
     $conex=$mysqli;
-    $sql="insert into detalle_proforma (ancho,alto,cantidad,preciou,preciot,detalle,id_proforma,extras) VALUES ('$ancho','$alto','$cantidad','$preciou','$preciot','$detalle','$idProforma',1)";
+    $sql="insert into detalle_cotizacion (ancho,alto,cantidad,preciou,preciot,detalle,id_proforma,extras) VALUES ('$ancho','$alto','$cantidad','$preciou','$preciot','$detalle','$idProforma',1)";
     $inser=$conex->query($sql);
   $detalleproforma = "datos insertados exitosamente";
   return $detalleproforma;

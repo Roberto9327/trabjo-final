@@ -13,12 +13,21 @@ $p = new obra();
 $idObra = $_GET['id'];
 $buscarobras = $p->buscarObra($idObra);
 $fila=mysqli_fetch_array($buscarobras);
-$nombre = $fila[1];
-$productopro = $fila[2];
-$cliente = $fila[3];
-$fecha = $fila[4];
-$divisa ="Bs.";
-if ($cliente == 0) {
+$nombreobra = $fila[1];
+$idcotizacion = $fila[2];
+
+$idbuscarcotizacion = $p->buscarcotizacion($idcotizacion);
+$filacot = mysqli_fetch_array($idbuscarcotizacion);
+$cliente = $filacot[2];
+
+$buscarnombredecliente = $p->buscarCliente($cliente);
+$filacli=mysqli_fetch_array($buscarnombredecliente);
+	$idcliente = $filacli[0];
+	$nombreC =  $filacli[1];
+	$telefonoC =  $filacli[2];
+	$nit =  $filacli[3];
+	$divisa ="Bs.";
+/*if ($cliente == 0) {
 	$nombreC="S/N";
 	$telefonoC="S/N";
 }else{
@@ -28,11 +37,11 @@ if ($cliente == 0) {
 	$nombreC = $filas[1];
 	$telefonoC = $filas[2];
 	$nit = $filas[3];
-}
+}*/
 $cont_obra = $p->contenidoobra($idObra);
 $cont_pago = $p->contenidopago($idObra,$idcliente);
-$productoproforma = $p->listarproductosproforma($productopro);
-$productoproformae = $p->listarproductosproformae($productopro);
+$productoproforma = $p->listarproductosproforma($idcotizacion);
+$productoproformae = $p->listarproductosproformae($idcotizacion);
 include "cabeceraobra.php";
 ?>
 <div id="content-wrapper" class="d-flex flex-column">
@@ -50,7 +59,7 @@ include "cabeceraobra.php";
 						<td class="titulotabla"><b>Nit:</b></td>
 					</tr>
 					<tr>
-						<td ><?=$nombre?></td>
+						<td ><?=$nombreobra?></td>
 						<td><?=$nombreC?></td>
 						<td><?=$telefonoC?></td>
 						<td><?=$nit?></td>
@@ -95,7 +104,7 @@ include "cabeceraobra.php";
 							$monto_total = $monto_total + $rcom['precio'];
 							?>
 							<tr>
-								<td><?=$rcom['detalle']?></td>
+								<td><?=$rcom['nombre']?></td>
 								<td><?=$rcom['cantidad']?></td>
 								<td><?=$rcom['precio']?> <?=$divisa?></td>
 								<td><?=$rcom['fecha']?></td>

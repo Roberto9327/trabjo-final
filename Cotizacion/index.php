@@ -3,18 +3,16 @@ session_start();
 
 if(isset($_SESSION["nombre"]))
 {
-if(isset($_SESSION["idproforma"])) 
-{
 
 	$nombreusuario=$_SESSION["nombre"];
 	include "cabeceracotizacion.php"; 
-	$idproforma=$_SESSION["idproforma"];
-	$nombreproforma=$_SESSION["nombreproforma"];
+	//$idproforma=$_SESSION["idproforma"];
+	//$nombreproforma=$_SESSION["nombreproforma"];
 	$divisa = "Bs.";
 	require("classProforma.php");
 	$p = new proforma();
 	$cats = $p->categoriaproducto();
-	$carrit = $p->buscardetalle($idproforma);
+	//$carrit = $p->buscardetalle($idproforma);
 	$accesorio = $p->buscandoaccesorios();
 	if (isset($_SESSION['idcategoria'])) {
 		$categoria = $_SESSION['idcategoria'];
@@ -30,23 +28,14 @@ if(isset($_SESSION["idproforma"]))
 		$tipo = $c->tipodetrabajo($categoria);
 
 	}
-
-	$buscaridcliente = $p->buscarnombredelcliente($idproforma);
-	$filacliente=mysqli_fetch_array($buscaridcliente);
-	$iddelclienteencontrado=$filacliente[2];
-
-	if ($iddelclienteencontrado > 0) {
-		$mostrarcliente2 = $p->mostrardatosclienteexistentes($iddelclienteencontrado);
-		$filabcliente2=mysqli_fetch_array($mostrarcliente2);
-		$nombredelcliente=$filabcliente2[1];
-		$telefonodelcliente=$filabcliente2[2];
+if (isset($_SESSION["nombrecliente"])) {
+		$nombredelcliente=$_SESSION["nombrecliente"];
+		$telefonodelcliente=$_SESSION["telefonocliente"];
+		$nitckiente = $_SESSION["nitcliente"];
 	}else{
 		$nombredelcliente="S/N";
 		$telefonodelcliente="S/N";
 	}
-	$_SESSION['pronombredelcliente'] =$nombredelcliente;
-	$_SESSION['protelefonodelcliente'] =$telefonodelcliente;
-
 
 	?>
 	
@@ -129,20 +118,20 @@ if(isset($_SESSION["idproforma"]))
 										</li>
 									</ul>
 								</div>
-								<div class="btnproforma">
-									<input type="button" value="Cotizar medidas" id="cotizarbtn" class="btn btn-success" name="">
+								<div class="row">
+										<p id="preciounitario"></p>
+										<p id="preciototal"></p>
+								</div>
 
+								<div class="row">
+									<div class="form-group col-xl-2 col-md-6 mb-4">
+									<input type="button" value="Cotizar medidas" id="cotizarbtn" class="btn btn-success" name="">
+								</div>
+									<div class="form-group col-xl-2 col-md-6 mb-4">
 									<input type="submit" value="Agregar al carrito" id="agregarbtn" class="btn btn-success agregarbtn" name="Agregar">
 								</div>
+								</div>
 							</div>
-
-							<br><br>
-
-							<div class="detalle">
-								<p id="preciounitario"></p>
-								<p id="preciototal"></p>
-							</div>
-
 						</form>
 					</div>	
 				</div>	
@@ -154,9 +143,6 @@ if(isset($_SESSION["idproforma"]))
 </html>
 
 <?php
-}else{
-header('Location: http://localhost/medicion/home.php');
-}
 }
 else
 {

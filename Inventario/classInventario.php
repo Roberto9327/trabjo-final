@@ -33,7 +33,7 @@ public function buscarproductos($iniciar,$articulo_x_pagina)
   {
     $mysqli = connect();
     $conex=$mysqli;
-	$sql="select * from productos limit $iniciar,$articulo_x_pagina";
+	$sql="select * from productos where id <> 0 order by nombre ASC limit $iniciar,$articulo_x_pagina";
     $inser=$conex->query($sql);
 	return $inser;
   }

@@ -96,9 +96,9 @@ public function buscarcategoria($categoria)
     $mysqli = connect();
     $conex=$mysqli;
     if($categoria > 0){
-        $sql = "select * FROM cotizacion WHERE  id_trabajo = '$categoria'";
+        $sql = "select * FROM servicios WHERE  id_trabajo = '$categoria'";
     }else{
-        $sql = "select * FROM cotizacion ORDER BY detalle ASC";
+        $sql = "select * FROM servicios ORDER BY detalle ASC";
     }
   $consul=$conex->query($sql);
   return $consul;
