@@ -22,7 +22,7 @@ if(isset($_SESSION["nombre"]) && $_SESSION["AccesoSuperUser"] == 'Administrador'
 				<div class="card">
 					<div class="card-body">
 						<div class="d-sm-flex align-items-center justify-content-between mb-4">
-		                   <h1 class="h3 mb-0 text-gray-800">Reportres de cotizaciones</h1>
+		                   <h1 class="h3 mb-0 text-gray-800">Reportes de cotizaciones</h1>
 		             	</div>
 						<form class="form-inline" method="POST" action="">
 							<div  class="row">

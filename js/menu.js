@@ -1,30 +1,30 @@
 $(function(){
-
+	var url = "http://localhost/medicion/";
 	$("#inicio").click(function(){	    
-	    location.href="http://localhost/medicion/home.php"; 
+	    location.href=url+"home.php"; 
 	 });
 	$("#paneladm").click(function(){	    
-	    location.href="http://localhost/medicion/PanelAdmin/"; 
+	    location.href=url+"PanelAdmin/"; 
 	 });
 	$("#cotizacion").click(function(){	    
-	    location.href="http://localhost/medicion/Cotizacion/index.php"; 
+	    location.href=url+"Cotizacion/index.php"; 
 	 });
 	$("#inventario").click(function(){	    
-	    location.href="http://localhost/medicion/inventario/index.php?pagina=1"; 
+	    location.href=url+"inventario/index.php?pagina=1"; 
 	 });
 	$("#verobra").click(function(){	    
-	    location.href="http://localhost/medicion/Obra/ver_obra.php?pagina=1"; 
+	    location.href=url+"Obra/ver_obra.php?pagina=1"; 
 	 });
 	$("#newobra").click(function(){	    
-	    location.href="http://localhost/medicion/Obra/nueva_obra.php"; 
+	    location.href=url+"Obra/nueva_obra.php"; 
 	 });
 	$("#verproveedores").click(function(){	    
-	    location.href="http://localhost/medicion/proveedores/index.php?pagina=1"; 
+	    location.href=url+"proveedores/index.php?pagina=1"; 
 	 });
 	$("#newproveedores").click(function(){	    
-	    location.href="http://localhost/medicion/Proveedores/nuevo_proveedor.php"; 
+	    location.href=url+"Proveedores/nuevo_proveedor.php"; 
 	 });
 	$("#verdirectorio").click(function(){	    
-	    location.href="http://localhost/medicion/Directorio/index.php?pagina=1"; 
+	    location.href=url+"Directorio/index.php?pagina=1"; 
 	 });
 });

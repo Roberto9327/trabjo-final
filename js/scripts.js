@@ -1,4 +1,5 @@
 $(function(){
+	var urlg = "http://localhost/medicion/";
     $.confirm = function(params){
 		if($('#confirmOverlay').length){
 			
@@ -52,7 +53,7 @@ $(function(){
 		});
 	}
 	 $("#blogin").click(function(){	    
-	    var url="http://localhost/medicion/login.php";
+	    var url=url+"login.php";
         $.ajax({
            type: "post",                 
            url: url,                     
@@ -65,13 +66,13 @@ $(function(){
 				}
 				else
 				{
-				  location.href="http://localhost/medicion/home.php";
+				  location.href=urlg+"home.php";
 				}
 		   }
         });       
 	 });
 	  $("#proforma").click(function(){	    
-	    var url="http://localhost/medicion/Cotizacion/generar_numero_proforma.php";
+	    var url=url+"Cotizacion/generar_numero_proforma.php";
 	    $.ajax({
            type: "post",
            url: url,                     
@@ -84,13 +85,13 @@ $(function(){
 				}
 				else
 				{
-				  location.href="http://localhost/medicion/Cotizacion/index.php";
+				  location.href=url+"Cotizacion/index.php";
 				}
 		   }
         });     
 	 });
 	  $("#articulobtncat").click(function(){
-		var url="http://localhost/medicion/Cotizacion/agregar_articulo.php";
+		var url=urlg+"Cotizacion/agregar_articulo.php";
 	    $.ajax({                        
            type: "POST",                 
            url: url,                     
@@ -118,7 +119,7 @@ $(function(){
 					  text: 'Cantidad de producto insuficiente'
 					})
 				 }
-				 $(".swal-button").click(function(){ location.href="http://localhost/medicion/Cotizacion/index.php"; })
+				 $(".swal-button").click(function(){ location.href=urlg+"Cotizacion/index.php"; })
 				 //location.href="http://justo-juez.com/medicion/Proforma/index.php";
 				}
 		   }
@@ -126,7 +127,7 @@ $(function(){
 					});
 	  $("#agregarbtn").click(function(){	
 	  		  
-	    var url="http://localhost/medicion/Cotizacion/adicionaraventaser.php";
+	    var url=url+"Cotizacion/adicionaraventaser.php";
 	    $.ajax({                        
            type: "post",                 
            url: url,                     
@@ -144,13 +145,13 @@ $(function(){
 					  title: 'Exelente!',
 					  text: 'Agregado al carrito'
 					})
-				  location.href="http://localhost/medicion/Cotizacion/index.php";
+				  location.href=urlg+"Cotizacion/index.php";
 				}
 		   }
         });   
 	 });
 	  $("#agregarbtnotros").click(function(){	    
-	    var url="http://localhost/medicion/Cotizacion/agregar_otros.php";
+	    var url=urlg+"Cotizacion/agregar_otros.php";
 	    $.ajax({                        
            type: "post",                 
            url: url,                     
@@ -163,13 +164,13 @@ $(function(){
 				}
 				else
 				{
-				  location.href="http://localhost/medicion/Cotizacion/index.php";
+				  location.href=urlg+"Cotizacion/index.php";
 				}
 		   }
         });     
 	 });
 	  $("#ingresarDatosCliente").click(function(){	    
-	    var url="http://localhost/medicion/Cotizacion/agregar_nombreCliente.php";
+	    var url=urlg+"Cotizacion/agregar_nombreCliente.php";
 	    $.ajax({                        
            type: "post",                 
            url: url,                     
@@ -177,13 +178,13 @@ $(function(){
            success: function(data)             
            {
 			alert(data);
-			location.href="http://localhost/medicion/Cotizacion/carrito.php";
+			location.href=urlg+"Cotizacion/carrito.php";
 			
 		   }
         });     
 	 });
 	  $("#buscarcat").click(function(){	 
-	    var url="http://localhost/medicion/Cotizacion/categoriaproducto.php";
+	    var url=url+"Cotizacion/categoriaproducto.php";
 	    $.ajax({                        
            type: "post",                 
            url: url,                     
@@ -196,16 +197,17 @@ $(function(){
 				}
 				else
 				{
-				  location.href="http://localhost/medicion/Cotizacion/index.php";
+				  location.href=urlg+"Cotizacion/index.php";
 				}
 		   }
         });     
 	 });
 	 $("#csesion").click(function(){
 	    var parametros = {};
+	    var cerrar = urlg+'cerrar_sesion.php';
 		$.ajax({
                 data:  parametros,
-                url:   'http://localhost/medicion/cerrar_sesion.php',
+                url:   cerrar,
                 type:  'post',               
                 success:  function (response) { 
 				  location.href="http://localhost/medicion/";
@@ -213,7 +215,7 @@ $(function(){
         });
 	 });
 	 $("#buscarcatobra").click(function(){	 
-	    var url="http://localhost/medicion/Obra/categoriaobra.php";
+	    var url=urlg+"Obra/categoriaobra.php";
 	    $.ajax({                        
            type: "post",                 
            url: url,                     
@@ -226,16 +228,16 @@ $(function(){
 				}
 				else
 				{
-				  location.href="http://localhost/medicion/Obra/ver_obra.php?pagina=1&categoria="+data;
+				  location.href=urlg+"Obra/ver_obra.php?pagina=1&categoria="+data;
 				}
 		   }
         });     
 	 });
 	$("#vertodoobra").click(function(){	 
-	    location.href="http://localhost/medicion/Obra/ver_obra.php?pagina=1";
+	    location.href=urlg+"Obra/ver_obra.php?pagina=1";
 	 });
     $("#ingresarDatosNuevaObra").click(function(){	 
-	    var url="http://localhost/medicion/Obra/ingresar_datos_cl_ob.php";
+	    var url=urlg+"Obra/ingresar_datos_cl_ob.php";
 	    $.ajax({                        
            type: "post",                 
            url: url,                     
@@ -248,13 +250,13 @@ $(function(){
 				}
 				else
 				{
-				  location.href="http://localhost/medicion/Obra/ver_obra.php?pagina=1";
+				  location.href=urlg+"Obra/ver_obra.php?pagina=1";
 				}
 		   }
         });     
 	 });
     $("#ingresarDatosdecompra").click(function(){	 
-	    var url="http://localhost/medicion/Obra/ingresar_datos_compra.php";
+	    var url=urlg+"Obra/ingresar_datos_compra.php";
 	    $.ajax({                        
            type: "post",                 
            url: url,                     
@@ -267,13 +269,13 @@ $(function(){
 				}
 				else
 				{
-				  location.href="http://localhost/medicion/Obra/detalle_obra.php?id="+data;
+				  location.href=urlg+"Obra/detalle_obra.php?id="+data;
 				}
 		   }
         });     
 	 });
     $("#ingresarDatosdepago").click(function(){	 
-	    var url="http://localhost/medicion/Obra/ingresar_datos_pago.php";
+	    var url=urlg+"Obra/ingresar_datos_pago.php";
 	    $.ajax({                        
            type: "post",                 
            url: url,                     
@@ -286,13 +288,13 @@ $(function(){
 				}
 				else
 				{
-				  location.href="http://localhost/medicion/Obra/detalle_obra.php?id="+data;
+				  location.href=urlg+"Obra/detalle_obra.php?id="+data;
 				}
 		   }
         });     
 	 });
  	$("#ingresardatosextras").click(function(){	 
-	    var url="http://localhost/medicion/Obra/ingresar_datos_extra.php";
+	    var url=urlg+"Obra/ingresar_datos_extra.php";
 	    $.ajax({                        
            type: "post",                 
            url: url,                     
@@ -305,13 +307,13 @@ $(function(){
 				}
 				else
 				{
-				  location.href="http://localhost/medicion/Obra/detalle_obra.php?id="+data;
+				  location.href=urlg+"Obra/detalle_obra.php?id="+data;
 				}
 		   }
         });     
 	 });
  	$("#ingresarproveedor").click(function(){	 
-	    var url="http://localhost/medicion/Proveedores/ingresar_nuevo_proveedor.php";
+	    var url=urlg+"Proveedores/ingresar_nuevo_proveedor.php";
 	    $.ajax({                        
            type: "post",                 
            url: url,                     
@@ -324,7 +326,7 @@ $(function(){
 				}
 				else
 				{
-				  location.href="http://localhost/medicion/Proveedores/index.php?pagina=1";
+				  location.href=urlg+"Proveedores/index.php?pagina=1";
 				}
 		   }
         });     
@@ -344,7 +346,7 @@ $(function(){
 									};
 									$.ajax({
 											data:  parametros,
-											url:   'http://localhost/medicion/Cotizacion/adicionaraventa.php',
+											url:   urlg+'Cotizacion/adicionaraventa.php',
 											type:  'post',
 											success: function(data)             
 											{		
@@ -381,7 +383,7 @@ $(function(){
 									};
 									$.ajax({
 											data:  parametros,
-											url:   'http://localhost/medicion/Cotizacion/modificarcantidad.php',
+											url:   urlg+'Cotizacion/modificarcantidad.php',
 											type:  'post',
 											success: function(data)             
 											{
@@ -403,7 +405,7 @@ $(function(){
 									};
 									$.ajax({
 											data:  parametros,
-											url:   'http://localhost/medicion/Cotizacion/modificarcantidad.php',
+											url:   urlg+'Cotizacion/modificarcantidad.php',
 											type:  'post',
 											success: function(data)             
 											{
@@ -429,7 +431,7 @@ $(function(){
 									};						
 									$.ajax({
 											data:  parametros,
-											url:   'http://localhost/medicion/Cotizacion/eliminardeventa.php',
+											url:   urlg+'Cotizacion/eliminardeventa.php',
 											type:  'post',
 											success: function(data)             
 											{
