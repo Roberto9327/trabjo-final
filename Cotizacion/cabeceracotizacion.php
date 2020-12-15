@@ -29,6 +29,8 @@ $nombreusuario=$_SESSION["nombre"];
     <script src="../js/vtemplado.js"></script>
     <script src="../js/scripts.js"></script>
     <script src="../js/menu.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <style type="text/css">
       .titulotabla{background: #60a3bc;color: #fff;}
       .mayuscula{text-transform: capitalize;}

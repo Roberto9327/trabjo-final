@@ -23,11 +23,14 @@ if(isset($_SESSION["nombre"]) && $_SESSION["AccesoSuperUser"] == 'Administrador'
     <link href="../css/sb-admin-2.min.css" rel="stylesheet">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <!-- jQuery and JS bundle w/ Popper.js -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">   </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>-->
     <script src="../js/jquery-1.9.1.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/menu.js"></script>
+
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
   <div  id="wrapper">
@@ -54,7 +57,7 @@ if(isset($_SESSION["nombre"]) && $_SESSION["AccesoSuperUser"] == 'Administrador'
                     <span>Cerrar sesión</span></a>
             </li>
 
-             <!-- Nav Item - Dashboard -->
+             <!-- Nav Item - Dashboard
             <li class="nav-item ">
                 <a class="nav-link" id="inicio">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -62,15 +65,15 @@ if(isset($_SESSION["nombre"]) && $_SESSION["AccesoSuperUser"] == 'Administrador'
                       <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
                     </svg>
                     <span>Inicio</span></a>
-            </li>
+            </li> -->
 
                  
                    <li class="nav-item ">
-                     <a class="nav-link" id="home">
+                     <a class="nav-link" id="homep">
                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-grid-1x2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M6 1H1v14h5V1zm9 0h-5v5h5V1zm0 9h-5v5h5v-5zM0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V1zm1 8a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1h-5z"/>
                     </svg>
-                    <span>Home</span></a>
+                    <span>Dashboard</span></a>
                   </li>
            
 

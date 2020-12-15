@@ -23,9 +23,11 @@ $nombreusuario=$_SESSION["nombre"];
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/menu.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
+      /*google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
@@ -47,7 +49,7 @@ $nombreusuario=$_SESSION["nombre"];
 
         var chart = new google.visualization.PieChart(document.getElementById('donut_single'));
         chart.draw(data, options);
-      }
+      }*/
     </script>
 </head>
 <body>

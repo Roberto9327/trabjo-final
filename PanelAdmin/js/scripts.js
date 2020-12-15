@@ -48,7 +48,7 @@ $(function(){
 		});
 	}
 	$("#agregarnewuser").click(function(){
-	    var url=urlgp+"PanelAdmin/Usuarios/registro.php";
+	    var url="http://localhost/medicion/PanelAdmin/Usuarios/registro.php";
 	    $.ajax({                        
            type: "POST",                 
            url: url,                     
@@ -62,7 +62,7 @@ $(function(){
 				}
 				
 				if (data=='1') {
-					location.href=urlgp+"PanelAdmin/Usuarios/ver_usuarios.php?pagina=1";
+					location.href="http://localhost/medicion/PanelAdmin/Usuarios/ver_usuarios.php?pagina=1";
 					document.getElementById('mensajeusuariob').innerHTML="<p class='correcto'>El usuario se inserto satisfactoriamente</p>";
 					// $("#mensajeusuario").html("");
 					// $("#mensajeusuario").css("color","green");
@@ -70,7 +70,7 @@ $(function(){
 				if(data=='2'){
 					// alert('test');
 					document.getElementById('mensajeusuario').innerHTML="<p class='incorrecto'>El usuario se encuentra ocuado</p>";
-					location.href="Location: "+urlgp+"PanelAdmin/Usuarios/registrar_usuarios.php";
+					location.href="Location: http://localhost/medicion/PanelAdmin/Usuarios/registrar_usuarios.php";
 					// $("#mensajeusuario").html("El usuario se encuentra ocuado");
 					// $("#mensajeusuario").css("color","red");
 				}
@@ -80,7 +80,7 @@ $(function(){
         }); 
 	 });
 	$("#buscarcat").click(function(){	 
-	    var url=urlgp+"PanelAdmin/Proforma/categoriaproforma.php";
+	    var url="http://localhost/medicion/PanelAdmin/Proforma/categoriaproforma.php";
 	    $.ajax({                        
            type: "post",                 
            url: url,                     
@@ -93,16 +93,16 @@ $(function(){
 				}
 				else
 				{
-				  location.href=urlgp+"PanelAdmin/Proforma/ver_proforma.php?pagina=1&categoria="+data;
+				  location.href="http://localhost/medicion/PanelAdmin/Proforma/ver_proforma.php?pagina=1&categoria="+data;
 				}
 		   }
         });     
 	 });
 	$("#vertodo").click(function(){	 
-	    location.href=urlgp+"PanelAdmin/Proforma/ver_proforma.php?pagina=1";
+	    location.href="http://localhost/medicion/PanelAdmin/Proforma/ver_proforma.php?pagina=1";
 	 });
 	$("#agregarnewproducto").click(function(){
-	    var url=urlgp+"PanelAdmin/Productos/registro.php";
+	    var url="http://localhost/medicion/PanelAdmin/Productos/registro.php";
 	    $.ajax({                        
            type: "POST",                 
            url: url,                     
@@ -118,9 +118,9 @@ $(function(){
 				{ 
 					if (data == "dato registrado") {
 
-						location.href=urlgp+"PanelAdmin/Productos/registrar_producto.php"
+						location.href="http://localhost/medicion/PanelAdmin/Productos/registrar_producto.php"
 					}else{
-						location.href=urlgp+"PanelAdmin/Productos/ver_producto.php?pagina=1";
+						location.href="http://localhost/medicion/PanelAdmin/Productos/ver_producto.php?pagina=1";
 					}
 				  
 				}
@@ -128,7 +128,7 @@ $(function(){
         }); 
 	 });
 	$("#modificarproducto").click(function(){
-	    var url=urlgp+"PanelAdmin/Productos/actualizar_producto.php";
+	    var url="http://localhost/medicion/sPanelAdmin/Productos/actualizar_producto.php";
 	    $.ajax({                        
            type: "POST",                 
            url: url,                     
@@ -138,13 +138,13 @@ $(function(){
 				if(data==1)
 				{
 				  $("#mensajeactualizacion").html("Actualizado correctamente");  
-				  location.href=urlgp+"PanelAdmin/Productos/ver_producto.php?pagina=1";          
+				  location.href="http://localhost/medicion/PanelAdmin/Productos/ver_producto.php?pagina=1";          
 				}
 		   }
         }); 
 	 });
 	$("#agregarnewproductocategoria").click(function(){
-	    var url=urlgp+"PanelAdmin/Productos/categoriapro.php";
+	    var url="http://localhost/medicion/PanelAdmin/Productos/categoriapro.php";
 	    $.ajax({                        
            type: "POST",                 
            url: url,                     
@@ -154,13 +154,13 @@ $(function(){
 				if(data==1)
 				{
 				  $("#mensajeactualizacion").html("Actualizado correctamente");  
-				  location.href=urlgp+"PanelAdmin/Productos/agregar_categoria.php?pagina=1";          
+				  location.href="http://localhost/medicion/PanelAdmin/Productos/agregar_categoria.php?pagina=1";          
 				}
 		   }
         }); 
 	 });
 	$("#recargarproductostok").click(function(){
-	    var url=urlgp+"PanelAdmin/Productos/recargar_stock_productos.php";
+	    var url="http://localhost/medicion/PanelAdmin/Productos/recargar_stock_productos.php";
 	    $.ajax({                        
            type: "POST",                 
            url: url,                     
@@ -171,13 +171,13 @@ $(function(){
 				if(data==1)
 				{
 				  $("#mensajeactualizacion").html("Actualizado correctamente");  
-				  location.href=urlgp+"PanelAdmin/Productos/ver_producto.php?pagina=1";          
+				  location.href="http://localhost/medicion/PanelAdmin/Productos/ver_producto.php?pagina=1";          
 				}
 		   }
         }); 
 	 });
 	$("#agregarnewproductoubicacion").click(function(){
-	    var url=urlgp+"PanelAdmin/Productos/agregarubicacion.php";
+	    var url="http://localhost/medicion/PanelAdmin/Productos/agregarubicacion.php";
 	    $.ajax({                        
            type: "POST",                 
            url: url,                     
@@ -187,7 +187,7 @@ $(function(){
 				if(data==1)
 				{
 				  $("#mensajeactualizacion").html("Actualizado correctamente");  
-				  location.href=urlgp+"PanelAdmin/Productos/agregar_ubicacion.php?pagina=1";          
+				  location.href="http://localhost/medicion/PanelAdmin/Productos/agregar_ubicacion.php?pagina=1";          
 				}
 		   }
         }); 
@@ -202,7 +202,7 @@ $(function(){
 	   };
 	   $.ajax({
                 data:  parametros,
-                url:   urlgp+"PanelAdmin/Productos/consultar_cantidad_ventas.php",
+                url:   "http://localhost/medicion/PanelAdmin/Productos/consultar_cantidad_ventas.php",
                 type:  'post',
                 success:  function (data) { 
                         //alert(data);
@@ -216,10 +216,10 @@ $(function(){
 	    var parametros = {};
 		$.ajax({
                 data:  parametros,
-                url:   urlgp+'cerrar_sesion.php',
+                url:   'http://localhost/medicion/cerrar_sesion.php',
                 type:  'post',               
                 success:  function (response) { 
-				  location.href=urlgp;
+				  location.href="http://localhost/medicion/";
                 }
         });
 	 });
