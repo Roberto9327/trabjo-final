@@ -1,4 +1,5 @@
 $(function(){
+	//URl Global
 	var urlg = "http://localhost/medicion/";
     $.confirm = function(params){
 		if($('#confirmOverlay').length){
@@ -53,7 +54,7 @@ $(function(){
 		});
 	}
 	 $("#blogin").click(function(){	    
-	    var url=url+"login.php";
+	    var url=urlg+"login.php";
         $.ajax({
            type: "post",                 
            url: url,                     
